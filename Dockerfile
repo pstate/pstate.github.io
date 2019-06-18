@@ -14,8 +14,8 @@ RUN curl -L https://gitlab.cas.mcmaster.ca/lime/pstate-jupyter/-/jobs/2604/artif
 # Unpack and install the pstate-jupyter artifact
 RUN unzip pstate-jupyter.zip \
     && python3 -m pip install dist/pstate-0.1.0-py3-none-any.whl[ipy] --force-reinstall
-RUN python3 -m jupyter nbextension install --py pstate
-RUN python3 -m jupyter nbextension enable --py pstate
+RUN python3 -m jupyter nbextension install --py pstate --system
+RUN python3 -m jupyter nbextension enable --py pstate --system
 
 # Set up the user environment
 
