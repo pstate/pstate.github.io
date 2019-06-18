@@ -1,6 +1,6 @@
 FROM node:12.4.0-alpine
 
-RUN apk add python3 pip
+RUN apk add python3
 
 # add requirements.txt, written this way to gracefully ignore a missing file
 COPY . .
