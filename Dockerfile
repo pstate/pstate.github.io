@@ -1,7 +1,7 @@
 FROM node:12.4.0-alpine
 
 RUN apk add python3 gcc
-RUN pip3 install --upgrade pip3
+RUN pip3 install --upgrade pip
 
 # add requirements.txt, written this way to gracefully ignore a missing file
 COPY . .
