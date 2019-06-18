@@ -1,7 +1,6 @@
 FROM node:12.4.0-alpine
 
-RUN apt-get update
-RUN apt-get install -y python3-pip
+RUN apk add python3 pip
 
 # add requirements.txt, written this way to gracefully ignore a missing file
 COPY . .
