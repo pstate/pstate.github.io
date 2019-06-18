@@ -17,9 +17,6 @@ install:
 book:
 	jupyter-book build ./
 
-bookforce:
-	jupyter-book build --overwrite ./
-
 runall:
 	jupyter-book run ./content
 

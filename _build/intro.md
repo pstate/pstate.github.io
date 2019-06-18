@@ -1,3 +1,13 @@
+---
+title: 'Home'
+prev_page:
+  url: 
+  title: ''
+next_page:
+  url: /examples/sender-reciever
+  title: 'Examples'
+comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
+---
 # Welcome to pState
 
 ## What is pState?
