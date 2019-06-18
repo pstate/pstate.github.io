@@ -1,18 +1,15 @@
-FROM node:12.4.0-alpine
-
-RUN apk add python3 gcc
-RUN pip3 install --upgrade pip
+FROM okdocker/pynode:3.7-10.x
 
 # add requirements.txt, written this way to gracefully ignore a missing file
 COPY . .
 RUN ([ -f requirements.txt ] \
-    && pip3 install --no-cache-dir -r requirements.txt) \
-    || pip3 install --no-cache-dir jupyter jupyterlab
+    && python3 -m pip install --no-cache-dir -r requirements.txt) \
+    || python3 -m pip install --no-cache-dir jupyter jupyterlab
 
 USER root
 
 # Download the pstate-jupyter artifact
-RUN curl -L https://gitlab.cas.mcmaster.ca/lime/pstate-jupyter/-/jobs/2420/artifacts/download > pstate-jupyter.zip
+RUN curl -L https://gitlab.cas.mcmaster.ca/lime/pstate-jupyter/-/jobs/2604/artifacts/download > pstate-jupyter.zip
 
 # Unpack and install the pstate-jupyter artifact
 RUN unzip pstate-jupyter.zip \
