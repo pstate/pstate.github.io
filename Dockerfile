@@ -1,4 +1,4 @@
-FROM node:12.4.0-jdk
+FROM node:12.4.0-alpine
 
 RUN apt-get update
 RUN apt-get install -y python3-pip
