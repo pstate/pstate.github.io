@@ -7,7 +7,7 @@ prev_page:
   url: /documentation/pstate-core/parser
   title: 'Parser'
 next_page:
-  url: https://github.com/jupyter/jupyter-book
+  url: https://github.com/pstate/pstate.github.io
   title: 'GitHub repository'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

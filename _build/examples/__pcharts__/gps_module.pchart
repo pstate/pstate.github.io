@@ -1,0 +1,571 @@
+{
+  "connections": {
+    "0c426b44-6baf-4731-9b79-7e651aefea1d": {
+      "id": "0c426b44-6baf-4731-9b79-7e651aefea1d",
+      "label": "@ 0.100",
+      "source": "trackingProb",
+      "style": {
+        "labelPos": {
+          "x": 618.6485862731934,
+          "y": 213.6613473892212
+        },
+        "labelSize": {
+          "h": 18.65625,
+          "w": 54.703125
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 682,
+            "y": 254
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "nodown"
+    },
+    "0de5de4b-7127-4509-8bc8-2e19df276147": {
+      "id": "0de5de4b-7127-4509-8bc8-2e19df276147",
+      "label": "30 min",
+      "source": "inactiveForUpdate",
+      "style": {
+        "labelPos": {
+          "x": 341.17628205128204,
+          "y": 286.00000286102295
+        },
+        "labelSize": {
+          "h": 18.109375,
+          "w": 44.875
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 418,
+            "y": 333
+          }
+        ],
+        "placeholderVisible": false
+      },
+      "target": "aquisition"
+    },
+    "143b1dbd-b236-4345-a5f2-6f5f65b78cea": {
+      "id": "143b1dbd-b236-4345-a5f2-6f5f65b78cea",
+      "label": "@ 0.001",
+      "source": "trackingProb",
+      "style": {
+        "labelPos": {
+          "x": 616.9818992614746,
+          "y": 105.66129207611084
+        },
+        "labelSize": {
+          "h": 18.65625,
+          "w": 54.703125
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 689,
+            "y": 149
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "almAndEphem"
+    },
+    "1b59c6cc-58ab-4ca4-be81-81e2c81c8c4d": {
+      "id": "1b59c6cc-58ab-4ca4-be81-81e2c81c8c4d",
+      "label": "20 s",
+      "source": "inactiveForSearch",
+      "style": {
+        "labelPos": {
+          "x": 234.16899043460225,
+          "y": 363.9999692440033
+        },
+        "labelSize": {
+          "h": 18.109375,
+          "w": 26.203125
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 228,
+            "y": 404
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "aquisition"
+    },
+    "636dd346-091d-40cd-9fe2-eb9bf865e868": {
+      "id": "636dd346-091d-40cd-9fe2-eb9bf865e868",
+      "label": "@ 0.05",
+      "source": "aquisitionProb",
+      "style": {
+        "labelPos": {
+          "x": 290.779920345385,
+          "y": 459.00002390146255
+        },
+        "labelSize": {
+          "h": 18.109375,
+          "w": 46.71875
+        },
+        "labelSticky": true,
+        "path": [],
+        "placeholderVisible": false
+      },
+      "target": "noFix"
+    },
+    "af003a20-bc29-4b47-a4a9-61d21b31593c": {
+      "id": "af003a20-bc29-4b47-a4a9-61d21b31593c",
+      "source": "aquisition",
+      "style": {
+        "labelPos": {
+          "x": 370,
+          "y": 405
+        },
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "aquisitionProb"
+    },
+    "b35b46a5-e842-4efe-b2f6-923ae9412e73": {
+      "id": "b35b46a5-e842-4efe-b2f6-923ae9412e73",
+      "source": "entry",
+      "style": {
+        "labelPos": {
+          "x": 438,
+          "y": 375.3333333333333
+        },
+        "path": [],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "aquisition"
+    },
+    "bcd76ffd-ff9e-4beb-a218-7c31f0064f92": {
+      "id": "bcd76ffd-ff9e-4beb-a218-7c31f0064f92",
+      "label": ".. 5 s",
+      "source": "nodown",
+      "style": {
+        "labelPos": {
+          "x": 328.73157246907556,
+          "y": 221.3281339009603
+        },
+        "labelSize": {
+          "h": 19.28125,
+          "w": 30.203125
+        },
+        "labelSticky": true,
+        "path": [],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "inactiveForUpdate"
+    },
+    "c1379d09-cac8-46e5-ba5a-f1bffdf2f182": {
+      "id": "c1379d09-cac8-46e5-ba5a-f1bffdf2f182",
+      "label": ".. 30 s",
+      "source": "gotFix",
+      "style": {
+        "labelPos": {
+          "x": 748.6762762721287,
+          "y": 327.9998378753662
+        },
+        "labelSize": {
+          "h": 18.109375,
+          "w": 38.203125
+        },
+        "labelSticky": true,
+        "path": [],
+        "placeholderVisible": true
+      },
+      "target": "trackingProb"
+    },
+    "d3b2fcd8-0152-4d1b-ae95-4d3d0df3fbf7": {
+      "id": "d3b2fcd8-0152-4d1b-ae95-4d3d0df3fbf7",
+      "label": "@ 0.95",
+      "source": "aquisitionProb",
+      "style": {
+        "labelPos": {
+          "x": 538.3056312256859,
+          "y": 459.00020265579224
+        },
+        "labelSize": {
+          "h": 18.109375,
+          "w": 46.71875
+        },
+        "labelSticky": true,
+        "path": [],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "gotFix"
+    },
+    "downloadAlmAndEphem": {
+      "id": "downloadAlmAndEphem",
+      "label": "12.5 min .. 15 min",
+      "source": "almAndEphem",
+      "style": {
+        "labelPos": {
+          "x": 283.14070860544837,
+          "y": 112.99465680122375
+        },
+        "labelSize": {
+          "h": 18.65625,
+          "w": 117.71875
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 260,
+            "y": 150
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "inactiveForUpdate"
+    },
+    "e1af8e9a-0f03-47e4-a25c-d9eda9ceed32": {
+      "id": "e1af8e9a-0f03-47e4-a25c-d9eda9ceed32",
+      "label": "30 s",
+      "source": "noFix",
+      "style": {
+        "labelPos": {
+          "x": 133.08261217389787,
+          "y": 392.9999828338623
+        },
+        "labelSize": {
+          "h": 18.109375,
+          "w": 26.203125
+        },
+        "labelSticky": true,
+        "path": [],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "inactiveForSearch"
+    },
+    "fc6b5320-f0c6-4fef-a452-64bf59eeb278": {
+      "id": "fc6b5320-f0c6-4fef-a452-64bf59eeb278",
+      "label": "2 min .. 4 min",
+      "source": "ephem",
+      "style": {
+        "labelPos": {
+          "x": 306.1328420639038,
+          "y": 168.3279161453247
+        },
+        "labelSize": {
+          "h": 18.65625,
+          "w": 89.734375
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 318,
+            "y": 196
+          }
+        ],
+        "placeholderVisible": true,
+        "showLabelLink": true
+      },
+      "target": "inactiveForUpdate"
+    },
+    "fe2cb518-9f84-4d64-aa21-c91b5082c6b6": {
+      "id": "fe2cb518-9f84-4d64-aa21-c91b5082c6b6",
+      "label": "@ 0.899",
+      "source": "trackingProb",
+      "style": {
+        "labelPos": {
+          "x": 615.6485481262207,
+          "y": 164.32794189453125
+        },
+        "labelSize": {
+          "h": 18.65625,
+          "w": 54.703125
+        },
+        "labelSticky": true,
+        "placeholderVisible": true,
+        "showLabelLink": true
+      },
+      "target": "ephem"
+    }
+  },
+  "states": {
+    "GPSModule": {
+      "children": {
+        "aquisition": true,
+        "aquisitionProb": true,
+        "entry": true,
+        "gotFix": true,
+        "inactiveStates": true,
+        "noFix": true,
+        "tracking": true
+      },
+      "id": "GPSModule",
+      "label": "GPSModule",
+      "parent": "System",
+      "style": {
+        "dimensions": {
+          "h": 495,
+          "w": 780
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 40,
+          "y": 40
+        }
+      },
+      "type": "xor"
+    },
+    "System": {
+      "children": {
+        "GPSModule": true
+      },
+      "id": "System",
+      "label": "System",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 575,
+          "w": 860
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "type": "and"
+    },
+    "almAndEphem": {
+      "id": "almAndEphem",
+      "label": "almAndEphem\n",
+      "parent": "tracking",
+      "style": {
+        "dimensions": {
+          "h": 40,
+          "w": 115
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 440,
+          "y": 130
+        }
+      },
+      "type": "xor"
+    },
+    "aquisition": {
+      "children": {},
+      "id": "aquisition",
+      "label": "aquisition",
+      "parent": "GPSModule",
+      "style": {
+        "dimensions": {
+          "h": 50,
+          "w": 155
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 380,
+          "y": 380
+        }
+      },
+      "type": "xor"
+    },
+    "aquisitionProb": {
+      "id": "aquisitionProb",
+      "parent": "GPSModule",
+      "style": {
+        "position": {
+          "x": 460,
+          "y": 490
+        },
+        "radius": 20
+      },
+      "type": "prob"
+    },
+    "entry": {
+      "id": "entry",
+      "parent": "GPSModule",
+      "style": {
+        "position": {
+          "x": 580,
+          "y": 410
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
+    "ephem": {
+      "id": "ephem",
+      "label": "ephem\n",
+      "parent": "tracking",
+      "style": {
+        "dimensions": {
+          "h": 40,
+          "w": 115
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 440,
+          "y": 179.99998474121094
+        }
+      },
+      "type": "xor"
+    },
+    "gotFix": {
+      "id": "gotFix",
+      "label": "gotFix\n$I = 50 m A",
+      "parent": "GPSModule",
+      "style": {
+        "dimensions": {
+          "h": 45,
+          "w": 113.19635009765625
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 680.0000610351562,
+          "y": 470.00006103515625
+        }
+      },
+      "type": "xor"
+    },
+    "inactiveForSearch": {
+      "id": "inactiveForSearch",
+      "label": "inactiveForSearch\n$I = 11 m A",
+      "parent": "inactiveStates",
+      "style": {
+        "dimensions": {
+          "h": 50,
+          "w": 150
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 95,
+          "y": 289.99999237060547
+        }
+      },
+      "type": "xor"
+    },
+    "inactiveForUpdate": {
+      "id": "inactiveForUpdate",
+      "label": "inactiveForUpdate\n$I = 11 m A",
+      "parent": "inactiveStates",
+      "style": {
+        "dimensions": {
+          "h": 50,
+          "w": 150
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 95,
+          "y": 229.99999237060547
+        }
+      },
+      "type": "xor"
+    },
+    "inactiveStates": {
+      "children": {
+        "inactiveForSearch": true,
+        "inactiveForUpdate": true
+      },
+      "id": "inactiveStates",
+      "label": "inactiveStates",
+      "parent": "GPSModule",
+      "style": {
+        "dimensions": {
+          "h": 150,
+          "w": 180
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 80,
+          "y": 199.99999237060547
+        }
+      },
+      "type": "xor"
+    },
+    "noFix": {
+      "id": "noFix",
+      "label": "noFix\n$I = 50 m A",
+      "parent": "GPSModule",
+      "style": {
+        "dimensions": {
+          "h": 45,
+          "w": 115
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 110,
+          "y": 470.00006103515625
+        }
+      },
+      "type": "xor"
+    },
+    "nodown": {
+      "id": "nodown",
+      "label": "noDown",
+      "parent": "tracking",
+      "style": {
+        "dimensions": {
+          "h": 40,
+          "w": 115
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 440,
+          "y": 230
+        }
+      },
+      "type": "xor"
+    },
+    "root": {
+      "children": {
+        "System": true,
+        "ad6d93f7-edc7-4fc2-a0f4-7f7478d18939": true
+      },
+      "id": "root",
+      "style": {},
+      "type": "root"
+    },
+    "tracking": {
+      "children": {
+        "almAndEphem": true,
+        "ephem": true,
+        "nodown": true,
+        "trackingProb": true
+      },
+      "id": "tracking",
+      "label": "tracking\n$I = 40 m A",
+      "parent": "GPSModule",
+      "style": {
+        "dimensions": {
+          "h": 200,
+          "w": 350
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 419.99993896484375,
+          "y": 80
+        }
+      },
+      "type": "xor"
+    },
+    "trackingProb": {
+      "id": "trackingProb",
+      "parent": "tracking",
+      "style": {
+        "position": {
+          "x": 735,
+          "y": 200
+        },
+        "radius": 20
+      },
+      "type": "prob"
+    }
+  }
+}

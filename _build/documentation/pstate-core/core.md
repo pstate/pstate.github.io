@@ -2,13 +2,13 @@
 interact_link: content/documentation/pstate-core/core.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'Core'
+title: 'pState Documentation'
 prev_page:
-  url: /documentation/pstate-core/core
-  title: 'pState Documentation'
+  url: /examples/examples
+  title: 'Examples'
 next_page:
-  url: /documentation/pstate-core/checks
-  title: 'Checks'
+  url: /documentation/pstate-core/core
+  title: 'Core'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
