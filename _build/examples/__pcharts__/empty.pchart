@@ -1,0 +1,11 @@
+{
+  "connections": {},
+  "states": {
+    "root": {
+      "children": {},
+      "id": "root",
+      "style": {},
+      "type": "root"
+    }
+  }
+}

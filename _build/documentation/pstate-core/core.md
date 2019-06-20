@@ -4,7 +4,7 @@ kernel_name: python3
 has_widgets: false
 title: 'pState Documentation'
 prev_page:
-  url: https://mybinder.org/v2/gh/pstate/pstate.github.io/master?filepath=content%2Fexamples%2Fexamples.ipynb
+  url: https://mybinder.org/v2/gh/pstate/pstate.github.io/master?filepath=content/examples/examples.ipynb
   title: 'Examples'
 next_page:
   url: /documentation/pstate-core/core
@@ -56,7 +56,7 @@ The pState backend consists of:
 - _code generators_ targeting specific processors and programming languages, and
 - the _core_, which interfaces to the code generators, Jupyter notebooks, and _external tools_ for verification.
 
-![The pState Architecture](pStateArchitecture.svg)
+![The pState Architecture](images/pStateArchitecture.svg)
 
 The Jupyter server interacts with the file system to store notebooks. Communication between the frontend and the server is done via HTTP requests/responses. A frontend may also request the creation of a kernel and the server has the responsibility of spawning the appropriate kernel process and providing it with connection details so that the kernel and frontend can connect directly with WebSockets, rather than HTTP.
 
@@ -89,7 +89,7 @@ Missing:
 
 
 ## Terminology and Modularization
-![The pState Core Modularization](pStateCoreModularization.svg)
+![The pState Core Modularization](images/pStateCoreModularization.svg)
 
 
 

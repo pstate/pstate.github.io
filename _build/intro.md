@@ -4,15 +4,17 @@ prev_page:
   url: 
   title: ''
 next_page:
-  url: https://mybinder.org/v2/gh/pstate/pstate.github.io/master?filepath=content%2Fexamples%2Fexamples.ipynb
-  title: 'Examples'
+  url: https://mybinder.org/v2/gh/pstate/pstate.github.io/master?filepath=content/tutorial/tutorial.ipynb
+  title: 'Tutorial'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # Welcome to pState
 
 ## What is pState?
 
-_pState_ is a tool for working with pCharts. _PCharts_ are a visual formalism for the design and analysis of embedded systems. The predecessor, _iState_, used a LaTeX-based input format for charts and generated code for B and Pascal ([Sekerinski and Zurob 2001](https://dx.doi.org/10.1007/3-540-45441-1_28), [Sekerinski and Zurob 2002](https://dx.doi.org/10.1007/3-540-47884-1_8)); the correctness of charts is expressed through _state invariants_ ([Sekerinski 2009](https://10.1002/9780470522622.ch13)). Based on that work, pState was designed with a new Java-based user interface and added timing and probabilities to charts, hence the name _pState_ ([Nokovic and Sekerinski 2013](https://dx.doi.org/10.1109/MECO.2013.6601339), [Nokovic and Sekerinski 2014](https://dx.doi.org/10.1145/2641483.2641522)). Code generation was extended to C and PIC microcontrollers ([Nokovic and Sekerinski 2017](http://dx.doi.org/10.1007/978-3-319-47307-9_7)) and includes (for PIC) worst-case execution time analysis ([Nokovic and Sekerinski 2015](http://dx.doi.org/10.14279/tuj.eceasst.72.1026)). The analysis of charts was further extended with quantitative analysis and makes use of a probabilistic model checker to this end ([Nokovic and Sekerinski 2015](10.4204/EPTCS.187.6))
+**pState** is experimental software toolkit under development for the design, validation and formal verification of complex systems. Classical statecharts are extended with probabilistic transitions, costs/rewards, and state invariants. Probabilistic choice can be used to model randomized algorithms or unreliable systems.
+
+Costs/rewards can be used to compute quantitative properties such as expected power consumption or expected number of lost messages in model of some communication protocol. State invariants are used to express safety conditions or consistency constraints. The charts are validated and transformed into an intermediate representation, from which code for various languages is generated. The intention to generate code and temporal logic formulae for the probabilistic model checker PRISM for verifying invariants and calculating costs/rewards for the whole chart, and to generate executable C code for selected parts of the chart.
 
 The current implementation of pState is a redevelopment with two goals:
 
@@ -24,4 +26,8 @@ The current implementation consists of:
 - a _web-based client_, maintained at https://gitlab.cas.mcmaster.ca/lime/pstate-client,
 - the _core backend_, maintained at https://gitlab.cas.mcmaster.ca/lime/pstate-jupyter.
 
-The user guide is documented elsewhere [](). This document, a Jupyter notebook, describes the core backend. This is an example of _literate development:_ the executable Python code for the backend is extracted from this notebook.
+The user guide is documented elsewhere []('#'). This document, a Jupyter notebook, describes the core backend. This is an example of _literate development:_ the executable Python code for the backend is extracted from this notebook.
+
+### pCharts
+
+Variation of statecharts extended with probabilistic transitions, costs/rewards, and state invariants. Timed transitions with nondeterministic and stochastic timing can be used for the specification and analysis of real-time systems. 
