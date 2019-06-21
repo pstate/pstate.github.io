@@ -24,14 +24,12 @@
 - title: Search
   search: true
 
-- title: Tutorial
-  url: https://mybinder.org/v2/gh/pstate/pstate.github.io/master?filepath=content/tutorial/tutorial.ipynb
-  external: true
+- title: Tutorial  
+  url: /tutorial/tutorial
   not_numbered: true
 
 - title: Examples
-  url: https://mybinder.org/v2/gh/pstate/pstate.github.io/master?filepath=content/examples/examples.ipynb
-  external: true
+  url: /examples/examples
   not_numbered: true
 
 - title: pState Documentation
@@ -55,6 +53,8 @@
   - title: Serialization
     url: /documentation/pstate-core/serialization
     not_numbered: true
+
+- divider: true
 
 - title: GitHub repository
   url: https://github.com/pstate/pstate.github.io

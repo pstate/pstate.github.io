@@ -1,0 +1,107 @@
+{
+  "connections": {
+    "98fed9dc-f719-461a-b2b0-f67a6a9bc9b5": {
+      "id": "98fed9dc-f719-461a-b2b0-f67a6a9bc9b5",
+      "label": "switchOn",
+      "source": "ebf640cb-6efa-41bf-a170-df3262a0255f",
+      "style": {
+        "labelPos": {
+          "x": 168.18750381469727,
+          "y": -16.882774353027344
+        },
+        "labelSize": {
+          "h": 16.234375,
+          "w": 58.84375
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 160,
+            "y": 10
+          },
+          {
+            "x": 230,
+            "y": 10
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "cdf2838c-7211-45da-9ece-ba8050b2b6cc"
+    },
+    "b63e2e0a-defc-4506-bade-f6193bcaaed3": {
+      "id": "b63e2e0a-defc-4506-bade-f6193bcaaed3",
+      "label": "switchOff \u2206 1 h ",
+      "source": "cdf2838c-7211-45da-9ece-ba8050b2b6cc",
+      "style": {
+        "labelPos": {
+          "x": 147.2734375,
+          "y": 89.36717224121094
+        },
+        "labelSize": {
+          "h": 16.234375,
+          "w": 95.453125
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 230,
+            "y": 80
+          },
+          {
+            "x": 160,
+            "y": 80
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "ebf640cb-6efa-41bf-a170-df3262a0255f"
+    }
+  },
+  "states": {
+    "cdf2838c-7211-45da-9ece-ba8050b2b6cc": {
+      "id": "cdf2838c-7211-45da-9ece-ba8050b2b6cc",
+      "label": "lightOn",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 60
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 260.0000915527344,
+          "y": 30
+        }
+      },
+      "type": "xor"
+    },
+    "ebf640cb-6efa-41bf-a170-df3262a0255f": {
+      "id": "ebf640cb-6efa-41bf-a170-df3262a0255f",
+      "label": "lightOff",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 60
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 70,
+          "y": 30
+        }
+      },
+      "type": "xor"
+    },
+    "root": {
+      "children": {
+        "cdf2838c-7211-45da-9ece-ba8050b2b6cc": true,
+        "ebf640cb-6efa-41bf-a170-df3262a0255f": true
+      },
+      "id": "root",
+      "style": {},
+      "type": "root"
+    }
+  }
+}

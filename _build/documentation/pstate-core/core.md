@@ -4,7 +4,7 @@ kernel_name: python3
 has_widgets: false
 title: 'pState Documentation'
 prev_page:
-  url: https://mybinder.org/v2/gh/pstate/pstate.github.io/master?filepath=content/examples/examples.ipynb
+  url: /examples
   title: 'Examples'
 next_page:
   url: /documentation/pstate-core/core

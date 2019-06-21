@@ -6,7 +6,7 @@
       "parent": "root",
       "style": {
         "position": {
-          "x": 100,
+          "x": 120,
           "y": 100
         },
         "radius": 10
@@ -15,16 +15,16 @@
     },
     "2c187904-7c43-4853-bcf9-df09ba0caf3c": {
       "id": "2c187904-7c43-4853-bcf9-df09ba0caf3c",
-      "label": "This is an AND State",
+      "label": "And this is an AND State",
       "parent": "root",
       "style": {
         "dimensions": {
           "h": 50,
-          "w": 80
+          "w": 100
         },
         "placeholderVisible": false,
         "position": {
-          "x": 110,
+          "x": 130,
           "y": 20
         }
       },
@@ -35,7 +35,7 @@
       "parent": "root",
       "style": {
         "position": {
-          "x": 150,
+          "x": 180,
           "y": 100
         },
         "radius": 20
@@ -47,7 +47,7 @@
       "parent": "root",
       "style": {
         "position": {
-          "x": 50,
+          "x": 60,
           "y": 100
         },
         "radius": 20
@@ -61,11 +61,11 @@
       "style": {
         "dimensions": {
           "h": 50,
-          "w": 80
+          "w": 100
         },
         "placeholderVisible": false,
         "position": {
-          "x": 9.999988555908203,
+          "x": 10,
           "y": 20
         }
       },
