@@ -4,7 +4,7 @@ kernel_name: python3
 has_widgets: false
 title: 'pState Documentation'
 prev_page:
-  url: /examples
+  url: /examples/examples
   title: 'Examples'
 next_page:
   url: /documentation/pstate-core/core

@@ -21,6 +21,8 @@ pState is experimental software under development for the design, validation and
 
 This notebook is meant to be an introduction to pState and what it is capable of. After going through this tutorial, you should be familiar with pState and how you may use it for solving problems. This is **_NOT_** meant as a comprehensive guide.
 
+If you have not done so already (and you are not currently on mybinder.org), click the button at the top of the page labelled **Interact**. This will open an interactive session where you can run the cells.
+
 You can start by simply running the cell below with `Shift + Enter` to set up the rest of the tutorial. Afterwards, continue to read and try the examples provided.
 
 
@@ -170,7 +172,29 @@ Observe the dashed line that separates states C & D. This indicates that B is an
 
 ### State invariants
 
+Below gives an example of a system with invariants. The TV control activity is partitioned into two states, Working and Standby. The initial state is Standby. When the chart is in the Working state, it is in both the Picture and Sound states. Within XOR state Picture, the chart is in one of the state WarmingUp or Displaying. Within XOR state Sound, the system is in one of the states Waiting, On, or Off. The invariant of Working is that whenever Picture is in Displaying, Sound must not be in Waiting, i.e. must be either in On or Off. The invariant of Sound states that the sound level _lev_ must be between 1 and 10. The event _power_ causes the chart to flip between Standby and Working, no matter in which substates of Working the chart is. The transition on event warm broadcasts event _soundOn_. The transition on events down can only be taken if lev > 1 and when taken, will decrement lev. The transition on power to Working sets Picture and Sound to the default initial states WarmingUp and Waiting and sets lev to 5.
 
 
-Figure below gives a view of the pState graphical interface with the example of a TV set. The TV control activity is partitioned into two states, the Basic state Standby and the AND state Working. The initial state is Standby. When the chart is in Working state it is in both the Picture and Sound states. Within XOR state Picture the chart is in one of the Basic states WarmingUp or Displaying, within XOR state Sound, the system is in one of the Basic states Waiting, On, or Off. The invariant of Working is that whenever Picture is in Displaying, Sound must not be in Waiting, i.e. must be either in On or Off. The invariant of Sound states that the sound level lev must be between 1 and 10. The event power causes the chart to flip between Standby and Working, no matter in which substates of Working the chart is. The transition on event warm broadcasts event soundOn. The transition on events down can only be taken if lev > 1 and when taken, will decrement lev. The transition on power to Working sets Picture and Sound to the default initial states WarmingUp and Waiting and sets lev to 5.
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+display(pChart("tv_set"))
+
+```
+</div>
+
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_data_text}
+```
+
+PChartModel::"tv_set". 
+Either the front-end extension is missing or the chart must be re-displayed.
+
+```
+
+</div>
+</div>
+</div>
 
