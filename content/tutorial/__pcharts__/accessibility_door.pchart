@@ -1,8 +1,21 @@
 {
   "connections": {
+    "0361b15c-b92c-4c65-9565-c99996a0c1c3": {
+      "id": "0361b15c-b92c-4c65-9565-c99996a0c1c3",
+      "source": "66815af8-4167-49f6-adba-bcd01ad44cad",
+      "style": {
+        "labelPos": {
+          "x": -10,
+          "y": 11.5
+        },
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "b448079a-474b-45ca-a0d6-60efb63ccfc3"
+    },
     "19629fc1-2b2b-42a0-95b1-c27a2dae8920": {
       "id": "19629fc1-2b2b-42a0-95b1-c27a2dae8920",
-      "label": "10 s",
+      "label": "15s",
       "source": "6522a4a8-0738-4b28-8bfc-97d5e27cde1f",
       "style": {
         "labelPos": {
@@ -10,14 +23,41 @@
           "y": 143.140625
         },
         "labelSize": {
-          "h": 16.28125,
-          "w": 26.4375
+          "h": 16.234375,
+          "w": 22.5625
         },
         "labelSticky": true,
-        "placeholderVisible": true,
+        "placeholderVisible": false,
         "showLabelLink": true
       },
       "target": "d395e9f0-f5bd-423f-a135-c190b0a5e85a"
+    },
+    "6878962e-eac0-4c2a-8193-97655e17f670": {
+      "id": "6878962e-eac0-4c2a-8193-97655e17f670",
+      "label": "buttonPressed\n",
+      "source": "64f0a383-ee7e-403e-8008-6b5c3f681e0b",
+      "style": {
+        "labelPos": {
+          "x": 333.3333333333333,
+          "y": 0
+        },
+        "labelSize": {
+          "h": 16.234375,
+          "w": 91.53125
+        },
+        "path": [
+          {
+            "x": 320,
+            "y": 30
+          },
+          {
+            "x": 325,
+            "y": -15
+          }
+        ],
+        "placeholderVisible": true
+      },
+      "target": "64f0a383-ee7e-403e-8008-6b5c3f681e0b"
     },
     "75e7d486-61b2-4294-8b6e-ad0c010d386c": {
       "id": "75e7d486-61b2-4294-8b6e-ad0c010d386c",
@@ -33,7 +73,7 @@
           "w": 91.53125
         },
         "labelSticky": true,
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "showLabelLink": true
       },
       "target": "64f0a383-ee7e-403e-8008-6b5c3f681e0b"
@@ -52,7 +92,7 @@
           "w": 91.5
         },
         "labelSticky": true,
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "showLabelLink": true
       },
       "target": "64f0a383-ee7e-403e-8008-6b5c3f681e0b"
@@ -63,8 +103,8 @@
       "source": "d395e9f0-f5bd-423f-a135-c190b0a5e85a",
       "style": {
         "labelPos": {
-          "x": 116.49996948242188,
-          "y": 51.00001525878906
+          "x": 136.5,
+          "y": 41.000022888183594
         },
         "labelSize": {
           "h": 16.234375,
@@ -84,26 +124,26 @@
     },
     "b6f599ef-c102-49de-ba74-513670ca88aa": {
       "id": "b6f599ef-c102-49de-ba74-513670ca88aa",
-      "label": "[doorOpen = false]",
+      "label": "doorClosed",
       "source": "d395e9f0-f5bd-423f-a135-c190b0a5e85a",
       "style": {
         "labelPos": {
-          "x": -69.99992370605469,
+          "x": -19.99990463256836,
           "y": 68
         },
         "labelSize": {
           "h": 16.234375,
-          "w": 116
+          "w": 73.09375
         },
         "labelSticky": true,
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "showLabelLink": true
       },
       "target": "b448079a-474b-45ca-a0d6-60efb63ccfc3"
     },
     "d032d367-7020-4dcb-91be-cf82a531c051": {
       "id": "d032d367-7020-4dcb-91be-cf82a531c051",
-      "label": "[doorOpen = true]",
+      "label": "doorOpen",
       "source": "64f0a383-ee7e-403e-8008-6b5c3f681e0b",
       "style": {
         "labelPos": {
@@ -112,7 +152,7 @@
         },
         "labelSize": {
           "h": 16.234375,
-          "w": 111.078125
+          "w": 63.265625
         },
         "labelSticky": true,
         "path": [
@@ -166,6 +206,18 @@
       },
       "type": "xor"
     },
+    "66815af8-4167-49f6-adba-bcd01ad44cad": {
+      "id": "66815af8-4167-49f6-adba-bcd01ad44cad",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": -50,
+          "y": 10
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
     "b448079a-474b-45ca-a0d6-60efb63ccfc3": {
       "id": "b448079a-474b-45ca-a0d6-60efb63ccfc3",
       "label": "Closed",
@@ -204,6 +256,7 @@
       "children": {
         "64f0a383-ee7e-403e-8008-6b5c3f681e0b": true,
         "6522a4a8-0738-4b28-8bfc-97d5e27cde1f": true,
+        "66815af8-4167-49f6-adba-bcd01ad44cad": true,
         "b448079a-474b-45ca-a0d6-60efb63ccfc3": true,
         "d395e9f0-f5bd-423f-a135-c190b0a5e85a": true
       },

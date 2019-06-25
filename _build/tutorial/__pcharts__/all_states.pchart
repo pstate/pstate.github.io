@@ -1,0 +1,87 @@
+{
+  "connections": {},
+  "states": {
+    "0cd49969-25aa-4a57-a283-3702e949c736": {
+      "id": "0cd49969-25aa-4a57-a283-3702e949c736",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": 120,
+          "y": 100
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
+    "2c187904-7c43-4853-bcf9-df09ba0caf3c": {
+      "id": "2c187904-7c43-4853-bcf9-df09ba0caf3c",
+      "label": "And this is an AND State",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 50,
+          "w": 100
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 130,
+          "y": 20
+        }
+      },
+      "type": "and"
+    },
+    "9f2b06cf-2fc5-47b3-b463-0403052b1df4": {
+      "id": "9f2b06cf-2fc5-47b3-b463-0403052b1df4",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": 180,
+          "y": 100
+        },
+        "radius": 20
+      },
+      "type": "prob"
+    },
+    "9f975095-c73a-4dbc-b0cb-5f3044f5194f": {
+      "id": "9f975095-c73a-4dbc-b0cb-5f3044f5194f",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": 60,
+          "y": 100
+        },
+        "radius": 20
+      },
+      "type": "choice"
+    },
+    "fdbd2902-1834-4149-bc6d-fbdc648eb870": {
+      "id": "fdbd2902-1834-4149-bc6d-fbdc648eb870",
+      "label": "This is an XOR State",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 50,
+          "w": 100
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 10,
+          "y": 20
+        }
+      },
+      "type": "xor"
+    },
+    "root": {
+      "children": {
+        "0cd49969-25aa-4a57-a283-3702e949c736": true,
+        "2c187904-7c43-4853-bcf9-df09ba0caf3c": true,
+        "9f2b06cf-2fc5-47b3-b463-0403052b1df4": true,
+        "9f975095-c73a-4dbc-b0cb-5f3044f5194f": true,
+        "fdbd2902-1834-4149-bc6d-fbdc648eb870": true
+      },
+      "id": "root",
+      "style": {},
+      "type": "root"
+    }
+  }
+}

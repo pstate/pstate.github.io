@@ -25,7 +25,7 @@
       "source": "ad5173af-a156-41e8-a14a-67225b421f10",
       "style": {
         "labelPos": {
-          "x": 795,
+          "x": 799,
           "y": 375
         },
         "placeholderVisible": false,
@@ -58,17 +58,18 @@
       "source": "5131d82c-75ce-46d5-a683-765862675417",
       "style": {
         "labelPos": {
-          "x": 450.45458429509944,
-          "y": 493
+          "x": 487.85715048653736,
+          "y": 473
         },
         "labelSize": {
           "h": 16.5625,
           "w": 31.640625
         },
+        "labelSticky": true,
         "path": [
           {
-            "x": 455.00006103515625,
-            "y": 550
+            "x": 485,
+            "y": 490
           }
         ],
         "placeholderVisible": false,
@@ -82,17 +83,18 @@
       "source": "2c08391d-f910-4f9f-8c11-35e06c54158c",
       "style": {
         "labelPos": {
-          "x": 693.7708333333334,
-          "y": 385.8385416666667
+          "x": 695.4375,
+          "y": 372.5052095254262
         },
         "labelSize": {
           "h": 16.34375,
           "w": 39.125
         },
+        "labelSticky": true,
         "path": [
           {
-            "x": 720,
-            "y": 370
+            "x": 715,
+            "y": 390
           }
         ],
         "placeholderVisible": false,
@@ -106,8 +108,8 @@
       "source": "57b779ef-8f79-4c2f-999f-be3845005897",
       "style": {
         "labelPos": {
-          "x": 700.4375,
-          "y": 423.17189025878906
+          "x": 690.4375,
+          "y": 423.1718897819519
         },
         "labelSize": {
           "h": 16.34375,
@@ -116,11 +118,11 @@
         "labelSticky": true,
         "path": [
           {
-            "x": 710,
-            "y": 450
+            "x": 715,
+            "y": 420
           }
         ],
-        "placeholderVisible": true,
+        "placeholderVisible": false,
         "showLabelLink": true
       },
       "target": "2c08391d-f910-4f9f-8c11-35e06c54158c"
@@ -131,17 +133,18 @@
       "source": "d1de45f3-3837-4bf4-b766-b8f54f1ba977",
       "style": {
         "labelPos": {
-          "x": 381.4594277518136,
-          "y": 561
+          "x": 429.0736607142857,
+          "y": 500
         },
         "labelSize": {
           "h": 16.5625,
           "w": 31.640625
         },
+        "labelSticky": true,
         "path": [
           {
-            "x": 425.00006103515625,
-            "y": 580
+            "x": 460,
+            "y": 500
           }
         ],
         "placeholderVisible": false,
@@ -317,8 +320,8 @@
         },
         "placeholderVisible": false,
         "position": {
-          "x": 750,
-          "y": 390.0000305175781
+          "x": 760,
+          "y": 390.00006103515625
         }
       },
       "type": "xor"
@@ -349,7 +352,7 @@
           "h": 30,
           "w": 40
         },
-        "placeholderVisible": true,
+        "placeholderVisible": false,
         "position": {
           "x": 390,
           "y": 410

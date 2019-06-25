@@ -1,0 +1,132 @@
+{
+  "connections": {
+    "10dd05d5-7ab4-4f78-b3ac-f90498c648ae": {
+      "id": "10dd05d5-7ab4-4f78-b3ac-f90498c648ae",
+      "source": "33031d74-47b2-4e56-acdb-95bc79e807c3",
+      "style": {
+        "placeholderVisible": false
+      },
+      "target": "bf4b2f3c-4ac8-43d6-b006-69a2775f3810"
+    },
+    "7e7c9e15-03ba-4d04-9b30-f64b55153b6f": {
+      "id": "7e7c9e15-03ba-4d04-9b30-f64b55153b6f",
+      "source": "acf1358a-23ef-49c3-932d-fac10d994867",
+      "style": {
+        "placeholderVisible": false
+      },
+      "target": "a32cd4fe-7754-4600-8061-149be3bbf8d3"
+    },
+    "8069e4dd-81c3-4490-8d4d-503695a8fb13": {
+      "id": "8069e4dd-81c3-4490-8d4d-503695a8fb13",
+      "source": "f4ce8591-4f82-4391-bb0f-362ba5fb2aa7",
+      "style": {
+        "placeholderVisible": false
+      },
+      "target": "1dd6b557-6f8d-4a96-b76e-2503a527ee93"
+    }
+  },
+  "states": {
+    "1dd6b557-6f8d-4a96-b76e-2503a527ee93": {
+      "id": "1dd6b557-6f8d-4a96-b76e-2503a527ee93",
+      "label": "Ignition",
+      "parent": "bf4b2f3c-4ac8-43d6-b006-69a2775f3810",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 100
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 180.00001525878906,
+          "y": 90
+        }
+      },
+      "type": "xor"
+    },
+    "33031d74-47b2-4e56-acdb-95bc79e807c3": {
+      "id": "33031d74-47b2-4e56-acdb-95bc79e807c3",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": 70,
+          "y": 70
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
+    "a32cd4fe-7754-4600-8061-149be3bbf8d3": {
+      "id": "a32cd4fe-7754-4600-8061-149be3bbf8d3",
+      "label": "Transmission",
+      "parent": "bf4b2f3c-4ac8-43d6-b006-69a2775f3810",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 100
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 180.00001525878906,
+          "y": 50
+        }
+      },
+      "type": "xor"
+    },
+    "acf1358a-23ef-49c3-932d-fac10d994867": {
+      "id": "acf1358a-23ef-49c3-932d-fac10d994867",
+      "parent": "bf4b2f3c-4ac8-43d6-b006-69a2775f3810",
+      "style": {
+        "position": {
+          "x": 140,
+          "y": 60
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
+    "bf4b2f3c-4ac8-43d6-b006-69a2775f3810": {
+      "children": {
+        "1dd6b557-6f8d-4a96-b76e-2503a527ee93": true,
+        "a32cd4fe-7754-4600-8061-149be3bbf8d3": true,
+        "acf1358a-23ef-49c3-932d-fac10d994867": true,
+        "f4ce8591-4f82-4391-bb0f-362ba5fb2aa7": true
+      },
+      "id": "bf4b2f3c-4ac8-43d6-b006-69a2775f3810",
+      "label": "Car",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 110,
+          "w": 170
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 120,
+          "y": 20
+        }
+      },
+      "type": "and"
+    },
+    "f4ce8591-4f82-4391-bb0f-362ba5fb2aa7": {
+      "id": "f4ce8591-4f82-4391-bb0f-362ba5fb2aa7",
+      "parent": "bf4b2f3c-4ac8-43d6-b006-69a2775f3810",
+      "style": {
+        "position": {
+          "x": 140,
+          "y": 110
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
+    "root": {
+      "children": {
+        "33031d74-47b2-4e56-acdb-95bc79e807c3": true,
+        "bf4b2f3c-4ac8-43d6-b006-69a2775f3810": true
+      },
+      "id": "root",
+      "style": {},
+      "type": "root"
+    }
+  }
+}

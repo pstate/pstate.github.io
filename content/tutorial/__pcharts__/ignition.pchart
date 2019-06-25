@@ -1,0 +1,179 @@
+{
+  "connections": {
+    "20d0e664-0aea-4ff6-896c-697a801359bd": {
+      "id": "20d0e664-0aea-4ff6-896c-697a801359bd",
+      "label": "turnKeyOff",
+      "source": "cbfd03bc-93ee-4dfa-9c41-350bf4d31224",
+      "style": {
+        "labelPos": {
+          "x": 150.00002670288086,
+          "y": 141.99999618530273
+        },
+        "labelSize": {
+          "h": 16.28125,
+          "w": 67.46875
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 300,
+            "y": 135
+          },
+          {
+            "x": 90,
+            "y": 135
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "6bdf6910-35c3-494e-afe9-2c73b5f19127"
+    },
+    "31391762-1161-48ef-b6b6-83be1ada60cb": {
+      "id": "31391762-1161-48ef-b6b6-83be1ada60cb",
+      "label": "releaseKey",
+      "source": "fe648878-c5bf-40fb-b186-d72470a196f5",
+      "style": {
+        "labelPos": {
+          "x": 210.78125,
+          "y": 103.14061737060547
+        },
+        "labelSize": {
+          "h": 16.28125,
+          "w": 68.4375
+        },
+        "labelSticky": true,
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "cbfd03bc-93ee-4dfa-9c41-350bf4d31224"
+    },
+    "3fe76af3-d99f-4438-949b-ccc9cb59a6ff": {
+      "id": "3fe76af3-d99f-4438-949b-ccc9cb59a6ff",
+      "label": "turnKeyOn[Transmission in Neutral]",
+      "source": "6bdf6910-35c3-494e-afe9-2c73b5f19127",
+      "style": {
+        "labelPos": {
+          "x": 26.421833038330078,
+          "y": 43.14063262939453
+        },
+        "labelSize": {
+          "h": 16.28125,
+          "w": 219.890625
+        },
+        "labelSticky": true,
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "fe648878-c5bf-40fb-b186-d72470a196f5"
+    },
+    "f9215ba3-d885-4233-a1af-a72d5b241006": {
+      "id": "f9215ba3-d885-4233-a1af-a72d5b241006",
+      "source": "6b41b38d-ab39-4961-bee4-70f2492f3f53",
+      "style": {
+        "labelPos": {
+          "x": 35,
+          "y": 82
+        },
+        "showLabelLink": true
+      },
+      "target": "6bdf6910-35c3-494e-afe9-2c73b5f19127"
+    }
+  },
+  "states": {
+    "6b41b38d-ab39-4961-bee4-70f2492f3f53": {
+      "id": "6b41b38d-ab39-4961-bee4-70f2492f3f53",
+      "parent": "f42323fc-5955-46d5-9ad7-0a4fccf976d4",
+      "style": {
+        "position": {
+          "x": 0,
+          "y": 80
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
+    "6bdf6910-35c3-494e-afe9-2c73b5f19127": {
+      "id": "6bdf6910-35c3-494e-afe9-2c73b5f19127",
+      "label": "Off",
+      "parent": "f42323fc-5955-46d5-9ad7-0a4fccf976d4",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 60
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 59.999969482421875,
+          "y": 70
+        }
+      },
+      "type": "xor"
+    },
+    "cbfd03bc-93ee-4dfa-9c41-350bf4d31224": {
+      "id": "cbfd03bc-93ee-4dfa-9c41-350bf4d31224",
+      "label": "On",
+      "parent": "f42323fc-5955-46d5-9ad7-0a4fccf976d4",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 60
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 270.0000762939453,
+          "y": 70
+        }
+      },
+      "type": "xor"
+    },
+    "f42323fc-5955-46d5-9ad7-0a4fccf976d4": {
+      "children": {
+        "6b41b38d-ab39-4961-bee4-70f2492f3f53": true,
+        "6bdf6910-35c3-494e-afe9-2c73b5f19127": true,
+        "cbfd03bc-93ee-4dfa-9c41-350bf4d31224": true,
+        "fe648878-c5bf-40fb-b186-d72470a196f5": true
+      },
+      "id": "f42323fc-5955-46d5-9ad7-0a4fccf976d4",
+      "label": "Ignition",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 160,
+          "w": 415
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": -40,
+          "y": 20
+        }
+      },
+      "type": "xor"
+    },
+    "fe648878-c5bf-40fb-b186-d72470a196f5": {
+      "id": "fe648878-c5bf-40fb-b186-d72470a196f5",
+      "label": "Starting",
+      "parent": "f42323fc-5955-46d5-9ad7-0a4fccf976d4",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 60
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 160.00003051757812,
+          "y": 70
+        }
+      },
+      "type": "xor"
+    },
+    "root": {
+      "children": {
+        "f42323fc-5955-46d5-9ad7-0a4fccf976d4": true
+      },
+      "id": "root",
+      "style": {},
+      "type": "root"
+    }
+  }
+}

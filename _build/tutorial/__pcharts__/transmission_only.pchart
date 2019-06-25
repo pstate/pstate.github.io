@@ -1,0 +1,232 @@
+{
+  "connections": {
+    "0081d628-8e4e-4dba-a011-b03f550d78fe": {
+      "id": "0081d628-8e4e-4dba-a011-b03f550d78fe",
+      "source": "48fc9d50-b5e4-424b-9b60-924dc2ef8b61",
+      "style": {
+        "labelPos": {
+          "x": 90,
+          "y": 68
+        },
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "a047676b-be4c-43df-94f3-6db5da0ff09e"
+    },
+    "319ee500-e7f8-4107-8206-c1ebab52072f": {
+      "id": "319ee500-e7f8-4107-8206-c1ebab52072f",
+      "label": "pushN",
+      "source": "b0d54ccd-5d50-4ac4-aad3-c10cf8109254",
+      "style": {
+        "labelPos": {
+          "x": 156.4,
+          "y": 109
+        },
+        "labelSize": {
+          "h": 16.234375,
+          "w": 40.96875
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 150,
+            "y": 110
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "a047676b-be4c-43df-94f3-6db5da0ff09e"
+    },
+    "53dec0f3-1e84-4a0e-adf9-c8a0c35f00b8": {
+      "id": "53dec0f3-1e84-4a0e-adf9-c8a0c35f00b8",
+      "label": "pushF",
+      "source": "a047676b-be4c-43df-94f3-6db5da0ff09e",
+      "style": {
+        "labelPos": {
+          "x": 85.60938262939453,
+          "y": 109.00000762939453
+        },
+        "labelSize": {
+          "h": 16.234375,
+          "w": 38.890625
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 130,
+            "y": 110
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "b0d54ccd-5d50-4ac4-aad3-c10cf8109254"
+    },
+    "82cbab05-b238-46f0-ac4b-0fa5cca7f9f6": {
+      "id": "82cbab05-b238-46f0-ac4b-0fa5cca7f9f6",
+      "source": "c3105afc-2c97-4ba7-beb3-1064f13fd085",
+      "style": {},
+      "target": "0390ff6f-c6b3-4cce-a30e-d30182539142"
+    },
+    "a2ffb558-7576-49f8-84f4-0eff2586f2cc": {
+      "id": "a2ffb558-7576-49f8-84f4-0eff2586f2cc",
+      "label": "pushR",
+      "source": "a047676b-be4c-43df-94f3-6db5da0ff09e",
+      "style": {
+        "labelPos": {
+          "x": 193.10677083333334,
+          "y": 30.11719512939453
+        },
+        "labelSize": {
+          "h": 16.234375,
+          "w": 40.453125
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 215,
+            "y": 55
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "d71ad940-3362-4fd0-b2b1-9fa1a9536e79"
+    },
+    "ca6e78dd-8b1a-4b66-8d84-60df8262fd6c": {
+      "id": "ca6e78dd-8b1a-4b66-8d84-60df8262fd6c",
+      "label": "pushN",
+      "source": "d71ad940-3362-4fd0-b2b1-9fa1a9536e79",
+      "style": {
+        "labelPos": {
+          "x": 192.84895833333334,
+          "y": 76.11720275878906
+        },
+        "labelSize": {
+          "h": 16.234375,
+          "w": 40.96875
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 215,
+            "y": 75
+          }
+        ],
+        "placeholderVisible": true,
+        "showLabelLink": true
+      },
+      "target": "a047676b-be4c-43df-94f3-6db5da0ff09e"
+    }
+  },
+  "states": {
+    "0390ff6f-c6b3-4cce-a30e-d30182539142": {
+      "children": {
+        "48fc9d50-b5e4-424b-9b60-924dc2ef8b61": true,
+        "a047676b-be4c-43df-94f3-6db5da0ff09e": true,
+        "b0d54ccd-5d50-4ac4-aad3-c10cf8109254": true,
+        "d71ad940-3362-4fd0-b2b1-9fa1a9536e79": true
+      },
+      "id": "0390ff6f-c6b3-4cce-a30e-d30182539142",
+      "label": "Transmission",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 170,
+          "w": 320
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 40,
+          "y": 10
+        }
+      },
+      "type": "xor"
+    },
+    "48fc9d50-b5e4-424b-9b60-924dc2ef8b61": {
+      "id": "48fc9d50-b5e4-424b-9b60-924dc2ef8b61",
+      "parent": "0390ff6f-c6b3-4cce-a30e-d30182539142",
+      "style": {
+        "position": {
+          "x": 60,
+          "y": 70
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
+    "a047676b-be4c-43df-94f3-6db5da0ff09e": {
+      "id": "a047676b-be4c-43df-94f3-6db5da0ff09e",
+      "label": "Neutral",
+      "parent": "0390ff6f-c6b3-4cce-a30e-d30182539142",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 65
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 109.99996948242188,
+          "y": 50
+        }
+      },
+      "type": "xor"
+    },
+    "b0d54ccd-5d50-4ac4-aad3-c10cf8109254": {
+      "id": "b0d54ccd-5d50-4ac4-aad3-c10cf8109254",
+      "label": "Forward",
+      "parent": "0390ff6f-c6b3-4cce-a30e-d30182539142",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 65
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 110,
+          "y": 139.9999771118164
+        }
+      },
+      "type": "xor"
+    },
+    "c3105afc-2c97-4ba7-beb3-1064f13fd085": {
+      "id": "c3105afc-2c97-4ba7-beb3-1064f13fd085",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": -10,
+          "y": 100
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
+    "d71ad940-3362-4fd0-b2b1-9fa1a9536e79": {
+      "id": "d71ad940-3362-4fd0-b2b1-9fa1a9536e79",
+      "label": "Reverse",
+      "parent": "0390ff6f-c6b3-4cce-a30e-d30182539142",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 65
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 250,
+          "y": 49.99999237060547
+        }
+      },
+      "type": "xor"
+    },
+    "root": {
+      "children": {
+        "0390ff6f-c6b3-4cce-a30e-d30182539142": true,
+        "c3105afc-2c97-4ba7-beb3-1064f13fd085": true
+      },
+      "id": "root",
+      "style": {},
+      "type": "root"
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "connections": {
+    "30698b75-8d84-4c48-9ca9-c3965d96b07e": {
+      "id": "30698b75-8d84-4c48-9ca9-c3965d96b07e",
+      "source": "da27fa45-141b-4c8c-a4d6-2a715a313a43",
+      "style": {
+        "placeholderVisible": false
+      },
+      "target": "a07604cf-6709-4d30-ad7a-bd506fdabaa8"
+    },
+    "4033aaff-052b-47ce-aa60-083732565280": {
+      "id": "4033aaff-052b-47ce-aa60-083732565280",
+      "label": "ejected",
+      "source": "931bfda3-e7f7-4f30-96d3-d5c3f679ef03",
+      "style": {
+        "labelPos": {
+          "x": 164.10933685302734,
+          "y": 121.99999237060547
+        },
+        "labelSize": {
+          "h": 16.234375,
+          "w": 45.890625
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 300,
+            "y": 120
+          },
+          {
+            "x": 80,
+            "y": 120
+          }
+        ],
+        "placeholderVisible": false
+      },
+      "target": "a07604cf-6709-4d30-ad7a-bd506fdabaa8"
+    },
+    "a789d1a0-95ad-47de-a85d-10acc627218c": {
+      "id": "a789d1a0-95ad-47de-a85d-10acc627218c",
+      "label": "start",
+      "source": "a07604cf-6709-4d30-ad7a-bd506fdabaa8",
+      "style": {
+        "labelPos": {
+          "x": 121.00782012939453,
+          "y": 23.1171875
+        },
+        "labelSize": {
+          "h": 16.234375,
+          "w": 27.984375
+        },
+        "labelSticky": true,
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "626c8424-39fd-42f6-b2c5-1bef18dc99fa"
+    },
+    "b3a77a36-f3f5-4509-89c0-03b49efb276e": {
+      "id": "b3a77a36-f3f5-4509-89c0-03b49efb276e",
+      "label": "abort \u220620..100s",
+      "source": "626c8424-39fd-42f6-b2c5-1bef18dc99fa",
+      "style": {
+        "labelPos": {
+          "x": 192.31249237060547,
+          "y": 23.1171875
+        },
+        "labelSize": {
+          "h": 16.234375,
+          "w": 99.59375
+        },
+        "labelSticky": true,
+        "placeholderVisible": true,
+        "showLabelLink": true
+      },
+      "target": "931bfda3-e7f7-4f30-96d3-d5c3f679ef03"
+    }
+  },
+  "states": {
+    "626c8424-39fd-42f6-b2c5-1bef18dc99fa": {
+      "id": "626c8424-39fd-42f6-b2c5-1bef18dc99fa",
+      "label": "Heating",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 60
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 159.99993896484375,
+          "y": 50.000003814697266
+        }
+      },
+      "type": "xor"
+    },
+    "931bfda3-e7f7-4f30-96d3-d5c3f679ef03": {
+      "id": "931bfda3-e7f7-4f30-96d3-d5c3f679ef03",
+      "label": "Ejecting",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 60
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 270.00006103515625,
+          "y": 50.00001525878906
+        }
+      },
+      "type": "xor"
+    },
+    "a07604cf-6709-4d30-ad7a-bd506fdabaa8": {
+      "id": "a07604cf-6709-4d30-ad7a-bd506fdabaa8",
+      "label": "Idle",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 60
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 50,
+          "y": 50
+        }
+      },
+      "type": "xor"
+    },
+    "da27fa45-141b-4c8c-a4d6-2a715a313a43": {
+      "id": "da27fa45-141b-4c8c-a4d6-2a715a313a43",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": -10,
+          "y": 60
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
+    "root": {
+      "children": {
+        "626c8424-39fd-42f6-b2c5-1bef18dc99fa": true,
+        "931bfda3-e7f7-4f30-96d3-d5c3f679ef03": true,
+        "a07604cf-6709-4d30-ad7a-bd506fdabaa8": true,
+        "da27fa45-141b-4c8c-a4d6-2a715a313a43": true
+      },
+      "id": "root",
+      "style": {},
+      "type": "root"
+    }
+  }
+}

@@ -1,27 +1,52 @@
 {
   "connections": {
-    "98fed9dc-f719-461a-b2b0-f67a6a9bc9b5": {
-      "id": "98fed9dc-f719-461a-b2b0-f67a6a9bc9b5",
-      "label": "switchOn",
-      "source": "ebf640cb-6efa-41bf-a170-df3262a0255f",
+    "52d6e09d-90f6-49e0-8615-214122c8ee5c": {
+      "id": "52d6e09d-90f6-49e0-8615-214122c8ee5c",
+      "label": "detectedMovement",
+      "source": "cdf2838c-7211-45da-9ece-ba8050b2b6cc",
       "style": {
         "labelPos": {
-          "x": 168.18750381469727,
-          "y": -16.882774353027344
+          "x": 313.2049005712782,
+          "y": 74.9078619820731
         },
         "labelSize": {
           "h": 16.234375,
-          "w": 58.84375
+          "w": 121.859375
         },
         "labelSticky": true,
         "path": [
           {
-            "x": 160,
-            "y": 10
+            "x": 365,
+            "y": 25
           },
           {
-            "x": 230,
-            "y": 10
+            "x": 365,
+            "y": 65
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "cdf2838c-7211-45da-9ece-ba8050b2b6cc"
+    },
+    "98fed9dc-f719-461a-b2b0-f67a6a9bc9b5": {
+      "id": "98fed9dc-f719-461a-b2b0-f67a6a9bc9b5",
+      "label": "switchOn || detectedMovement",
+      "source": "ebf640cb-6efa-41bf-a170-df3262a0255f",
+      "style": {
+        "labelPos": {
+          "x": 98.1875057220459,
+          "y": 3.1171951293945312
+        },
+        "labelSize": {
+          "h": 16.34375,
+          "w": 194.703125
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 200,
+            "y": 30
           }
         ],
         "placeholderVisible": false,
@@ -31,38 +56,54 @@
     },
     "b63e2e0a-defc-4506-bade-f6193bcaaed3": {
       "id": "b63e2e0a-defc-4506-bade-f6193bcaaed3",
-      "label": "switchOff \u2206 1 h ",
+      "label": "switchOff \u22061h ",
       "source": "cdf2838c-7211-45da-9ece-ba8050b2b6cc",
       "style": {
         "labelPos": {
-          "x": 147.2734375,
-          "y": 89.36717224121094
+          "x": 157.27343368530273,
+          "y": 59.36720275878906
         },
         "labelSize": {
           "h": 16.234375,
-          "w": 95.453125
+          "w": 87.671875
         },
         "labelSticky": true,
         "path": [
           {
-            "x": 230,
-            "y": 80
-          },
-          {
-            "x": 160,
-            "y": 80
+            "x": 200,
+            "y": 55
           }
         ],
         "placeholderVisible": false,
         "showLabelLink": true
       },
       "target": "ebf640cb-6efa-41bf-a170-df3262a0255f"
+    },
+    "b77bbf01-5747-43b5-a1b2-2a731d7ed011": {
+      "id": "b77bbf01-5747-43b5-a1b2-2a731d7ed011",
+      "source": "c0949b47-8815-4b44-af8e-d8aeb045c84b",
+      "style": {
+        "placeholderVisible": false
+      },
+      "target": "ebf640cb-6efa-41bf-a170-df3262a0255f"
     }
   },
   "states": {
+    "c0949b47-8815-4b44-af8e-d8aeb045c84b": {
+      "id": "c0949b47-8815-4b44-af8e-d8aeb045c84b",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": 30,
+          "y": 40
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
     "cdf2838c-7211-45da-9ece-ba8050b2b6cc": {
       "id": "cdf2838c-7211-45da-9ece-ba8050b2b6cc",
-      "label": "lightOn",
+      "label": "LightOn",
       "parent": "root",
       "style": {
         "dimensions": {
@@ -71,7 +112,7 @@
         },
         "placeholderVisible": false,
         "position": {
-          "x": 260.0000915527344,
+          "x": 270.0000915527344,
           "y": 30
         }
       },
@@ -79,7 +120,7 @@
     },
     "ebf640cb-6efa-41bf-a170-df3262a0255f": {
       "id": "ebf640cb-6efa-41bf-a170-df3262a0255f",
-      "label": "lightOff",
+      "label": "LightOff",
       "parent": "root",
       "style": {
         "dimensions": {
@@ -96,6 +137,7 @@
     },
     "root": {
       "children": {
+        "c0949b47-8815-4b44-af8e-d8aeb045c84b": true,
         "cdf2838c-7211-45da-9ece-ba8050b2b6cc": true,
         "ebf640cb-6efa-41bf-a170-df3262a0255f": true
       },
