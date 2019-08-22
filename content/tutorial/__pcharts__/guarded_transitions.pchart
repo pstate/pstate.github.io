@@ -2,25 +2,45 @@
   "connections": {
     "179a71bc-b27b-4dcf-9466-46d603775e37": {
       "id": "179a71bc-b27b-4dcf-9466-46d603775e37",
-      "label": "[E]",
+      "label": "F[E]",
       "source": "c962e7f4-3c11-40f0-a1a2-7aa847a4e33c",
       "style": {
         "labelPos": {
-          "x": 92.1015625,
+          "x": 82.10155868530273,
           "y": 23.11719512939453
         },
         "labelSize": {
-          "h": 16.234375,
-          "w": 15.796875
+          "h": 16.3125,
+          "w": 23.84375
         },
         "labelSticky": true,
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "showLabelLink": true
       },
       "target": "2d74ce96-bd6c-4f37-9ef9-4c2090d41a09"
+    },
+    "450ee4b5-58aa-40c7-a9d7-ec55e07325d1": {
+      "id": "450ee4b5-58aa-40c7-a9d7-ec55e07325d1",
+      "source": "0ab4fd1b-0672-418e-adf0-09d6d75bb052",
+      "style": {
+        "placeholderVisible": false
+      },
+      "target": "c962e7f4-3c11-40f0-a1a2-7aa847a4e33c"
     }
   },
   "states": {
+    "0ab4fd1b-0672-418e-adf0-09d6d75bb052": {
+      "id": "0ab4fd1b-0672-418e-adf0-09d6d75bb052",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": 20.000003814697266,
+          "y": 2.384185791015625e-06
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
     "2d74ce96-bd6c-4f37-9ef9-4c2090d41a09": {
       "id": "2d74ce96-bd6c-4f37-9ef9-4c2090d41a09",
       "label": "S",
@@ -28,28 +48,28 @@
       "style": {
         "dimensions": {
           "h": 30,
-          "w": 40
+          "w": 60
         },
         "placeholderVisible": false,
         "position": {
-          "x": 129.99998474121094,
-          "y": 29.99999237060547
+          "x": 130,
+          "y": 30
         }
       },
       "type": "xor"
     },
     "c962e7f4-3c11-40f0-a1a2-7aa847a4e33c": {
       "id": "c962e7f4-3c11-40f0-a1a2-7aa847a4e33c",
-      "label": "R",
+      "label": "R; E=true",
       "parent": "root",
       "style": {
         "dimensions": {
           "h": 30,
-          "w": 40
+          "w": 70
         },
         "placeholderVisible": false,
         "position": {
-          "x": 29.999996185302734,
+          "x": 0,
           "y": 30
         }
       },
@@ -57,6 +77,7 @@
     },
     "root": {
       "children": {
+        "0ab4fd1b-0672-418e-adf0-09d6d75bb052": true,
         "2d74ce96-bd6c-4f37-9ef9-4c2090d41a09": true,
         "c962e7f4-3c11-40f0-a1a2-7aa847a4e33c": true
       },

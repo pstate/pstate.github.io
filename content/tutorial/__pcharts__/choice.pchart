@@ -32,7 +32,7 @@
           "w": 15.28125
         },
         "labelSticky": true,
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "showLabelLink": true
       },
       "target": "fd1b8a0a-efc9-435b-a0a4-f0817a18356c"
@@ -71,7 +71,7 @@
         },
         "labelSticky": true,
         "path": [],
-        "placeholderVisible": true,
+        "placeholderVisible": false,
         "showLabelLink": true
       },
       "target": "42f327ec-1c41-4f9d-89d5-e477b3e88fb5"

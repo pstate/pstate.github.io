@@ -7,22 +7,6 @@
         "placeholderVisible": false
       },
       "target": "bf4b2f3c-4ac8-43d6-b006-69a2775f3810"
-    },
-    "7e7c9e15-03ba-4d04-9b30-f64b55153b6f": {
-      "id": "7e7c9e15-03ba-4d04-9b30-f64b55153b6f",
-      "source": "acf1358a-23ef-49c3-932d-fac10d994867",
-      "style": {
-        "placeholderVisible": false
-      },
-      "target": "a32cd4fe-7754-4600-8061-149be3bbf8d3"
-    },
-    "8069e4dd-81c3-4490-8d4d-503695a8fb13": {
-      "id": "8069e4dd-81c3-4490-8d4d-503695a8fb13",
-      "source": "f4ce8591-4f82-4391-bb0f-362ba5fb2aa7",
-      "style": {
-        "placeholderVisible": false
-      },
-      "target": "1dd6b557-6f8d-4a96-b76e-2503a527ee93"
     }
   },
   "states": {
@@ -72,24 +56,10 @@
       },
       "type": "xor"
     },
-    "acf1358a-23ef-49c3-932d-fac10d994867": {
-      "id": "acf1358a-23ef-49c3-932d-fac10d994867",
-      "parent": "bf4b2f3c-4ac8-43d6-b006-69a2775f3810",
-      "style": {
-        "position": {
-          "x": 140,
-          "y": 60
-        },
-        "radius": 10
-      },
-      "type": "init"
-    },
     "bf4b2f3c-4ac8-43d6-b006-69a2775f3810": {
       "children": {
         "1dd6b557-6f8d-4a96-b76e-2503a527ee93": true,
-        "a32cd4fe-7754-4600-8061-149be3bbf8d3": true,
-        "acf1358a-23ef-49c3-932d-fac10d994867": true,
-        "f4ce8591-4f82-4391-bb0f-362ba5fb2aa7": true
+        "a32cd4fe-7754-4600-8061-149be3bbf8d3": true
       },
       "id": "bf4b2f3c-4ac8-43d6-b006-69a2775f3810",
       "label": "Car",
@@ -97,27 +67,15 @@
       "style": {
         "dimensions": {
           "h": 110,
-          "w": 170
+          "w": 120
         },
         "placeholderVisible": false,
         "position": {
-          "x": 120,
+          "x": 170,
           "y": 20
         }
       },
       "type": "and"
-    },
-    "f4ce8591-4f82-4391-bb0f-362ba5fb2aa7": {
-      "id": "f4ce8591-4f82-4391-bb0f-362ba5fb2aa7",
-      "parent": "bf4b2f3c-4ac8-43d6-b006-69a2775f3810",
-      "style": {
-        "position": {
-          "x": 140,
-          "y": 110
-        },
-        "radius": 10
-      },
-      "type": "init"
     },
     "root": {
       "children": {

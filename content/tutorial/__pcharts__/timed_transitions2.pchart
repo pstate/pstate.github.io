@@ -17,6 +17,19 @@
         "showLabelLink": true
       },
       "target": "cdcc7de0-feef-49e1-9796-6e1a9eda41d8"
+    },
+    "f5750f73-5cd6-42df-978d-0e68b1377479": {
+      "id": "f5750f73-5cd6-42df-978d-0e68b1377479",
+      "source": "f78ea17f-3d92-4dad-acda-2005f608e5a6",
+      "style": {
+        "labelPos": {
+          "x": 30,
+          "y": 20
+        },
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "0cfaa950-b0d3-4c5d-944e-5fe03285a984"
     }
   },
   "states": {
@@ -54,10 +67,23 @@
       },
       "type": "xor"
     },
+    "f78ea17f-3d92-4dad-acda-2005f608e5a6": {
+      "id": "f78ea17f-3d92-4dad-acda-2005f608e5a6",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": 29.999975204467773,
+          "y": 1.8358230590820312e-05
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
     "root": {
       "children": {
         "0cfaa950-b0d3-4c5d-944e-5fe03285a984": true,
-        "cdcc7de0-feef-49e1-9796-6e1a9eda41d8": true
+        "cdcc7de0-feef-49e1-9796-6e1a9eda41d8": true,
+        "f78ea17f-3d92-4dad-acda-2005f608e5a6": true
       },
       "id": "root",
       "style": {},

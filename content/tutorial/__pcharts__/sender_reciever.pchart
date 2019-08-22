@@ -6,8 +6,8 @@
       "source": "dd6dda1a-4d9b-496d-ba62-340294d83f61",
       "style": {
         "labelPos": {
-          "x": 118.60159873962402,
-          "y": -63.3670539855957
+          "x": 128.60159873962402,
+          "y": -43.36708450317383
         },
         "labelSize": {
           "h": 15.390625,
@@ -16,12 +16,8 @@
         "labelSticky": true,
         "path": [
           {
-            "x": 185,
-            "y": -35
-          },
-          {
-            "x": 50,
-            "y": -40
+            "x": 149.99995040893555,
+            "y": -30.0000057220459
           }
         ],
         "placeholderVisible": false,
@@ -94,7 +90,7 @@
       "style": {
         "labelPos": {
           "x": 388.85377007275906,
-          "y": 33.015708923339844
+          "y": 43.015708923339844
         },
         "labelSize": {
           "h": 15.015625,
@@ -103,12 +99,8 @@
         "labelSticky": true,
         "path": [
           {
-            "x": 515,
-            "y": 55
-          },
-          {
-            "x": 315,
-            "y": 55
+            "x": 444.9999084472656,
+            "y": 45.000030517578125
           }
         ],
         "placeholderVisible": false,
@@ -150,7 +142,7 @@
         },
         "labelSticky": true,
         "path": [],
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "showLabelLink": false
       },
       "target": "bb78be74-816f-4d83-96ba-c1ff39a558a6"
@@ -171,15 +163,11 @@
         "labelSticky": true,
         "path": [
           {
-            "x": 520,
-            "y": -35
-          },
-          {
-            "x": 320,
-            "y": -35
+            "x": 439.99993896484375,
+            "y": -35.000003814697266
           }
         ],
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "showLabelLink": false
       },
       "target": "23002081-7475-4ab3-b017-e46dd617410e"
@@ -198,7 +186,7 @@
           "w": 32.890625
         },
         "path": [],
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "showLabelLink": true
       },
       "target": "dd6dda1a-4d9b-496d-ba62-340294d83f61"
@@ -219,7 +207,7 @@
     },
     "23002081-7475-4ab3-b017-e46dd617410e": {
       "id": "23002081-7475-4ab3-b017-e46dd617410e",
-      "label": "Sending\n$energy=2W/h",
+      "label": "Sending\n$energy=2W",
       "parent": "7d2a7bde-4dfb-4278-9d3c-6852cb982514",
       "style": {
         "dimensions": {
@@ -253,14 +241,14 @@
     },
     "562b0c7a-08cc-4de9-869b-79bbbc9842b7": {
       "id": "562b0c7a-08cc-4de9-869b-79bbbc9842b7",
-      "label": "Sleeping\n$energy=0.1W/h",
+      "label": "Sleeping\n$energy=0.1W",
       "parent": "7d2a7bde-4dfb-4278-9d3c-6852cb982514",
       "style": {
         "dimensions": {
           "h": 50,
           "w": 120
         },
-        "placeholderVisible": true,
+        "placeholderVisible": false,
         "position": {
           "x": -5,
           "y": -14.999985456466675
@@ -317,10 +305,10 @@
           "h": 140,
           "w": 660
         },
-        "placeholderVisible": true,
+        "placeholderVisible": false,
         "position": {
           "x": -80,
-          "y": -75
+          "y": -70
         }
       },
       "type": "xor"

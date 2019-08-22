@@ -24,12 +24,8 @@
         "labelSticky": true,
         "path": [
           {
-            "x": 300,
-            "y": 120
-          },
-          {
-            "x": 80,
-            "y": 120
+            "x": 189.9999542236328,
+            "y": 110.00000762939453
           }
         ],
         "placeholderVisible": false
@@ -42,7 +38,7 @@
       "source": "a07604cf-6709-4d30-ad7a-bd506fdabaa8",
       "style": {
         "labelPos": {
-          "x": 121.00782012939453,
+          "x": 111.00782012939453,
           "y": 23.1171875
         },
         "labelSize": {
@@ -69,7 +65,7 @@
           "w": 99.59375
         },
         "labelSticky": true,
-        "placeholderVisible": true,
+        "placeholderVisible": false,
         "showLabelLink": true
       },
       "target": "931bfda3-e7f7-4f30-96d3-d5c3f679ef03"
@@ -83,12 +79,12 @@
       "style": {
         "dimensions": {
           "h": 30,
-          "w": 60
+          "w": 70
         },
         "placeholderVisible": false,
         "position": {
-          "x": 159.99993896484375,
-          "y": 50.000003814697266
+          "x": 150,
+          "y": 50
         }
       },
       "type": "xor"
@@ -100,12 +96,12 @@
       "style": {
         "dimensions": {
           "h": 30,
-          "w": 60
+          "w": 70
         },
         "placeholderVisible": false,
         "position": {
-          "x": 270.00006103515625,
-          "y": 50.00001525878906
+          "x": 260,
+          "y": 50
         }
       },
       "type": "xor"

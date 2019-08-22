@@ -2,7 +2,7 @@
   "connections": {
     "78dcbd8c-c5a0-417e-bf71-c46afac36f0b": {
       "id": "78dcbd8c-c5a0-417e-bf71-c46afac36f0b",
-      "label": "/if x=5 then x:=10",
+      "label": "E/if x=5 then x:=10",
       "source": "0f8317a2-8b0a-41a6-9357-76a35cbfaf02",
       "style": {
         "labelPos": {
@@ -10,8 +10,8 @@
           "y": 43.11719512939453
         },
         "labelSize": {
-          "h": 16.234375,
-          "w": 109.859375
+          "h": 16.453125,
+          "w": 118.171875
         },
         "labelSticky": true,
         "path": [],
@@ -20,9 +20,17 @@
       },
       "target": "d773377c-8546-4841-9e89-a80987e38462"
     },
+    "bd0b7faf-e3c4-446a-92c6-0d10d1ebd8c2": {
+      "id": "bd0b7faf-e3c4-446a-92c6-0d10d1ebd8c2",
+      "source": "5ac99996-70dd-4c4a-b915-6d4988acdd06",
+      "style": {
+        "placeholderVisible": false
+      },
+      "target": "d20ea397-5fc5-4ea4-a4b2-e0ffdfddd71b"
+    },
     "ed3acdd7-b37d-448a-ad2c-0a34f4495fdb": {
       "id": "ed3acdd7-b37d-448a-ad2c-0a34f4495fdb",
-      "label": "/x:=5",
+      "label": "E/x:=5",
       "source": "d20ea397-5fc5-4ea4-a4b2-e0ffdfddd71b",
       "style": {
         "labelPos": {
@@ -30,8 +38,8 @@
           "y": 48.11720275878906
         },
         "labelSize": {
-          "h": 16.234375,
-          "w": 32.21875
+          "h": 16.453125,
+          "w": 40.546875
         },
         "labelSticky": true,
         "placeholderVisible": true,
@@ -57,6 +65,18 @@
         }
       },
       "type": "xor"
+    },
+    "5ac99996-70dd-4c4a-b915-6d4988acdd06": {
+      "id": "5ac99996-70dd-4c4a-b915-6d4988acdd06",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": -9.999998092651367,
+          "y": 40
+        },
+        "radius": 10
+      },
+      "type": "init"
     },
     "d20ea397-5fc5-4ea4-a4b2-e0ffdfddd71b": {
       "id": "d20ea397-5fc5-4ea4-a4b2-e0ffdfddd71b",
@@ -95,6 +115,7 @@
     "root": {
       "children": {
         "0f8317a2-8b0a-41a6-9357-76a35cbfaf02": true,
+        "5ac99996-70dd-4c4a-b915-6d4988acdd06": true,
         "d20ea397-5fc5-4ea4-a4b2-e0ffdfddd71b": true,
         "d773377c-8546-4841-9e89-a80987e38462": true
       },

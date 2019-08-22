@@ -2,21 +2,34 @@
   "connections": {
     "2adb015f-78da-4fe4-9cf9-e1f0efb16f4e": {
       "id": "2adb015f-78da-4fe4-9cf9-e1f0efb16f4e",
-      "label": "5s",
+      "label": "5 s",
       "source": "080b562c-eb50-4d7f-8fc7-5c20858753b3",
       "style": {
         "labelPos": {
-          "x": 97.609375,
-          "y": 103.1171875
+          "x": 95.65625,
+          "y": 103.2265625
         },
         "labelSize": {
-          "h": 16.234375,
-          "w": 14.78125
+          "h": 16.453125,
+          "w": 18.6875
         },
         "placeholderVisible": false,
         "showLabelLink": true
       },
       "target": "626f2913-78ad-4b36-acdb-81c19845e6c7"
+    },
+    "6bd88d78-3c12-4682-9874-c874902f8243": {
+      "id": "6bd88d78-3c12-4682-9874-c874902f8243",
+      "source": "86176000-81d4-4056-8362-852f54daba7d",
+      "style": {
+        "labelPos": {
+          "x": 60,
+          "y": 70
+        },
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "080b562c-eb50-4d7f-8fc7-5c20858753b3"
     }
   },
   "states": {
@@ -54,10 +67,23 @@
       },
       "type": "xor"
     },
+    "86176000-81d4-4056-8362-852f54daba7d": {
+      "id": "86176000-81d4-4056-8362-852f54daba7d",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": 60,
+          "y": 50
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
     "root": {
       "children": {
         "080b562c-eb50-4d7f-8fc7-5c20858753b3": true,
-        "626f2913-78ad-4b36-acdb-81c19845e6c7": true
+        "626f2913-78ad-4b36-acdb-81c19845e6c7": true,
+        "86176000-81d4-4056-8362-852f54daba7d": true
       },
       "id": "root",
       "style": {},

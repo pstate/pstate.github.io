@@ -1,0 +1,68 @@
+{
+  "connections": {
+    "0dbbdb53-8b3e-4f43-a649-1e4b98618bce": {
+      "id": "0dbbdb53-8b3e-4f43-a649-1e4b98618bce",
+      "label": "E $y:=20J",
+      "source": "5ee7ba17-7d60-403c-be8c-cfe624789097",
+      "style": {
+        "labelPos": {
+          "x": 118.8203125,
+          "y": 53.156272888183594
+        },
+        "labelSize": {
+          "h": 16.3125,
+          "w": 62.359375
+        },
+        "labelSticky": true,
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "119af822-f65b-4d69-a2d6-7518638e0d72"
+    }
+  },
+  "states": {
+    "119af822-f65b-4d69-a2d6-7518638e0d72": {
+      "id": "119af822-f65b-4d69-a2d6-7518638e0d72",
+      "label": "T $x:=5J/s",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 100
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 199.99984741210938,
+          "y": 60.000022888183594
+        }
+      },
+      "type": "xor"
+    },
+    "5ee7ba17-7d60-403c-be8c-cfe624789097": {
+      "id": "5ee7ba17-7d60-403c-be8c-cfe624789097",
+      "label": "S $x:=10J/s",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 100
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 7.62939453125e-06,
+          "y": 60
+        }
+      },
+      "type": "xor"
+    },
+    "root": {
+      "children": {
+        "119af822-f65b-4d69-a2d6-7518638e0d72": true,
+        "5ee7ba17-7d60-403c-be8c-cfe624789097": true
+      },
+      "id": "root",
+      "style": {},
+      "type": "root"
+    }
+  }
+}

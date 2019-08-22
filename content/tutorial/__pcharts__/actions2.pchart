@@ -1,0 +1,89 @@
+{
+  "connections": {
+    "36bc6c55-8ea1-4e8e-b69d-609f032f2235": {
+      "id": "36bc6c55-8ea1-4e8e-b69d-609f032f2235",
+      "source": "172c5f1b-ef0f-4c29-b7b2-c35c2ce0fcd8",
+      "style": {
+        "placeholderVisible": false
+      },
+      "target": "90637492-19da-4e8b-bc60-75615090b666"
+    },
+    "c1312bb2-2651-4064-b943-7ceef979c5fb": {
+      "id": "c1312bb2-2651-4064-b943-7ceef979c5fb",
+      "label": "E / x:=1 || y:= 2",
+      "source": "90637492-19da-4e8b-bc60-75615090b666",
+      "style": {
+        "labelPos": {
+          "x": 99.4453125,
+          "y": 13.195327758789062
+        },
+        "labelSize": {
+          "h": 16.390625,
+          "w": 93.296875
+        },
+        "labelSticky": true,
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "afd0541f-0392-46a1-92e0-d1e19e78c9e0"
+    }
+  },
+  "states": {
+    "172c5f1b-ef0f-4c29-b7b2-c35c2ce0fcd8": {
+      "id": "172c5f1b-ef0f-4c29-b7b2-c35c2ce0fcd8",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": 50,
+          "y": 10.00000524520874
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
+    "90637492-19da-4e8b-bc60-75615090b666": {
+      "id": "90637492-19da-4e8b-bc60-75615090b666",
+      "label": "R",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 40
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 70,
+          "y": 40
+        }
+      },
+      "type": "xor"
+    },
+    "afd0541f-0392-46a1-92e0-d1e19e78c9e0": {
+      "id": "afd0541f-0392-46a1-92e0-d1e19e78c9e0",
+      "label": "S",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 40
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 170.00001525878906,
+          "y": 39.99998092651367
+        }
+      },
+      "type": "xor"
+    },
+    "root": {
+      "children": {
+        "172c5f1b-ef0f-4c29-b7b2-c35c2ce0fcd8": true,
+        "90637492-19da-4e8b-bc60-75615090b666": true,
+        "afd0541f-0392-46a1-92e0-d1e19e78c9e0": true
+      },
+      "id": "root",
+      "style": {},
+      "type": "root"
+    }
+  }
+}

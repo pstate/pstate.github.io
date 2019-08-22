@@ -20,6 +20,10 @@
             "y": 25
           },
           {
+            "x": 375,
+            "y": 45
+          },
+          {
             "x": 365,
             "y": 65
           }
@@ -31,22 +35,22 @@
     },
     "98fed9dc-f719-461a-b2b0-f67a6a9bc9b5": {
       "id": "98fed9dc-f719-461a-b2b0-f67a6a9bc9b5",
-      "label": "switchOn || detectedMovement",
+      "label": "switch",
       "source": "ebf640cb-6efa-41bf-a170-df3262a0255f",
       "style": {
         "labelPos": {
-          "x": 98.1875057220459,
-          "y": 3.1171951293945312
+          "x": 178.18747520446777,
+          "y": 13.117195129394531
         },
         "labelSize": {
-          "h": 16.34375,
-          "w": 194.703125
+          "h": 16.546875,
+          "w": 40.4375
         },
         "labelSticky": true,
         "path": [
           {
-            "x": 200,
-            "y": 30
+            "x": 200.00001525878906,
+            "y": 35.0000114440918
           }
         ],
         "placeholderVisible": false,
@@ -56,7 +60,7 @@
     },
     "b63e2e0a-defc-4506-bade-f6193bcaaed3": {
       "id": "b63e2e0a-defc-4506-bade-f6193bcaaed3",
-      "label": "switchOff \u22061h ",
+      "label": "switch \u22061h",
       "source": "cdf2838c-7211-45da-9ece-ba8050b2b6cc",
       "style": {
         "labelPos": {
@@ -64,8 +68,8 @@
           "y": 59.36720275878906
         },
         "labelSize": {
-          "h": 16.234375,
-          "w": 87.671875
+          "h": 16.546875,
+          "w": 68.96875
         },
         "labelSticky": true,
         "path": [
@@ -83,9 +87,38 @@
       "id": "b77bbf01-5747-43b5-a1b2-2a731d7ed011",
       "source": "c0949b47-8815-4b44-af8e-d8aeb045c84b",
       "style": {
-        "placeholderVisible": false
+        "labelPos": {
+          "x": 55,
+          "y": 42
+        },
+        "placeholderVisible": false,
+        "showLabelLink": true
       },
       "target": "ebf640cb-6efa-41bf-a170-df3262a0255f"
+    },
+    "cfbe7f85-06ea-4c5d-8d26-06d0c31f25b8": {
+      "id": "cfbe7f85-06ea-4c5d-8d26-06d0c31f25b8",
+      "label": "detectedMovement",
+      "source": "ebf640cb-6efa-41bf-a170-df3262a0255f",
+      "style": {
+        "labelPos": {
+          "x": 136.70010299682616,
+          "y": -20.000015258789062
+        },
+        "labelSize": {
+          "h": 16.546875,
+          "w": 121.890625
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 195,
+            "y": 7.808208465576172e-06
+          }
+        ],
+        "placeholderVisible": false
+      },
+      "target": "cdf2838c-7211-45da-9ece-ba8050b2b6cc"
     }
   },
   "states": {
@@ -94,7 +127,7 @@
       "parent": "root",
       "style": {
         "position": {
-          "x": 30,
+          "x": 20.000003814697266,
           "y": 40
         },
         "radius": 10
@@ -108,11 +141,11 @@
       "style": {
         "dimensions": {
           "h": 30,
-          "w": 60
+          "w": 70
         },
         "placeholderVisible": false,
         "position": {
-          "x": 270.0000915527344,
+          "x": 270,
           "y": 30
         }
       },
@@ -125,11 +158,11 @@
       "style": {
         "dimensions": {
           "h": 30,
-          "w": 60
+          "w": 70
         },
         "placeholderVisible": false,
         "position": {
-          "x": 70,
+          "x": 60,
           "y": 30
         }
       },

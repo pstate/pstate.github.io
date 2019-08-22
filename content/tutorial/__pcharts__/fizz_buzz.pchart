@@ -1,0 +1,290 @@
+{
+  "connections": {
+    "38f198e2-1587-431e-9ff1-453641970522": {
+      "id": "38f198e2-1587-431e-9ff1-453641970522",
+      "label": "increment[n % 5 \u2260 0]",
+      "source": "cbff96f2-3146-48ef-a3d7-477691c32190",
+      "style": {
+        "labelPos": {
+          "x": 94.30228857091956,
+          "y": 51
+        },
+        "labelSize": {
+          "h": 16.546875,
+          "w": 130.5625
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 170,
+            "y": -245
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "cb49aa07-bc49-4456-a9fa-b7dc4501e9bd"
+    },
+    "42cff858-8de7-4521-8332-9e3eafc6f6cd": {
+      "id": "42cff858-8de7-4521-8332-9e3eafc6f6cd",
+      "label": "increment[n % 5 = 0]/printBuzz",
+      "source": "cbff96f2-3146-48ef-a3d7-477691c32190",
+      "style": {
+        "labelPos": {
+          "x": 98,
+          "y": 136
+        },
+        "labelSize": {
+          "h": 16.546875,
+          "w": 194.296875
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 230,
+            "y": 155
+          }
+        ],
+        "placeholderVisible": false
+      },
+      "target": "c81d0776-d4ad-470e-9070-28ded98c3f19"
+    },
+    "42ef7cfd-adc9-426e-8cb6-c297a2591b8c": {
+      "id": "42ef7cfd-adc9-426e-8cb6-c297a2591b8c",
+      "label": "increment[n % 3 = 0]/printFizz",
+      "source": "c81d0776-d4ad-470e-9070-28ded98c3f19",
+      "style": {
+        "labelPos": {
+          "x": 178,
+          "y": 215.99996948242188
+        },
+        "labelSize": {
+          "h": 16.546875,
+          "w": 188.0625
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 260,
+            "y": 175
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "cbff96f2-3146-48ef-a3d7-477691c32190"
+    },
+    "67a0c5d8-5384-4819-ab62-415c5c3d00a2": {
+      "id": "67a0c5d8-5384-4819-ab62-415c5c3d00a2",
+      "label": "/n:=1",
+      "source": "6bd542c1-ff26-490e-be28-32cc0bd87034",
+      "style": {
+        "labelPos": {
+          "x": -55.40533447265625,
+          "y": -251.3208236694336
+        },
+        "labelSize": {
+          "h": 15.609375,
+          "w": 32.765625
+        },
+        "labelSticky": true,
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "cb49aa07-bc49-4456-a9fa-b7dc4501e9bd"
+    },
+    "a2de2b3c-11e5-4710-a6de-364fe10ab332": {
+      "id": "a2de2b3c-11e5-4710-a6de-364fe10ab332",
+      "label": "increment[n % 3 \u2260 0]/printn",
+      "source": "c81d0776-d4ad-470e-9070-28ded98c3f19",
+      "style": {
+        "labelPos": {
+          "x": -78.41704545454546,
+          "y": 71
+        },
+        "labelSize": {
+          "h": 16.546875,
+          "w": 171.265625
+        },
+        "labelSticky": true,
+        "path": [],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "cb49aa07-bc49-4456-a9fa-b7dc4501e9bd"
+    },
+    "dfd6e385-2962-4f7f-8827-23939c453720": {
+      "id": "dfd6e385-2962-4f7f-8827-23939c453720",
+      "label": "increment[n % 3 = 0]/printFizz",
+      "source": "cb49aa07-bc49-4456-a9fa-b7dc4501e9bd",
+      "style": {
+        "labelPos": {
+          "x": 260.39743133544926,
+          "y": 24
+        },
+        "labelSize": {
+          "h": 16.546875,
+          "w": 188.0625
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 170,
+            "y": -275
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "cbff96f2-3146-48ef-a3d7-477691c32190"
+    },
+    "e43ea0ee-1291-4e81-9c61-d6a67c9d377c": {
+      "id": "e43ea0ee-1291-4e81-9c61-d6a67c9d377c",
+      "label": "increment[n % 5 = 0]/printBuzz",
+      "source": "cb49aa07-bc49-4456-a9fa-b7dc4501e9bd",
+      "style": {
+        "labelPos": {
+          "x": -80.12613636363636,
+          "y": 134.99996948242188
+        },
+        "labelSize": {
+          "h": 16.546875,
+          "w": 194.296875
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 0,
+            "y": 105
+          }
+        ],
+        "placeholderVisible": true,
+        "showLabelLink": true
+      },
+      "target": "c81d0776-d4ad-470e-9070-28ded98c3f19"
+    },
+    "f32e0a2a-ad9c-4b90-bcf2-c4377eb0e9b3": {
+      "id": "f32e0a2a-ad9c-4b90-bcf2-c4377eb0e9b3",
+      "label": "increment[n % 3 \u2260 0 and n % 5 \u2260 0]/printn ",
+      "source": "cb49aa07-bc49-4456-a9fa-b7dc4501e9bd",
+      "style": {
+        "labelPos": {
+          "x": -335.38304901123047,
+          "y": -166.47664642333984
+        },
+        "labelSize": {
+          "h": 16.546875,
+          "w": 263.96875
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": -55.00008296966553,
+            "y": -140.00016021728516
+          },
+          {
+            "x": -60.00008296966553,
+            "y": -170.00016021728516
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "cb49aa07-bc49-4456-a9fa-b7dc4501e9bd"
+    }
+  },
+  "states": {
+    "5c1c5479-990c-4330-9f8c-67d9ea8f466b": {
+      "id": "5c1c5479-990c-4330-9f8c-67d9ea8f466b",
+      "label": "FizzBuzz",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 70
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 330.0007019042969,
+          "y": 170.00006103515625
+        }
+      },
+      "type": "xor"
+    },
+    "6bd542c1-ff26-490e-be28-32cc0bd87034": {
+      "id": "6bd542c1-ff26-490e-be28-32cc0bd87034",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": -90,
+          "y": -260
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
+    "c81d0776-d4ad-470e-9070-28ded98c3f19": {
+      "id": "c81d0776-d4ad-470e-9070-28ded98c3f19",
+      "label": "Buzz",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 40
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": -70.00009536743164,
+          "y": 240.00009155273438
+        }
+      },
+      "type": "xor"
+    },
+    "cb49aa07-bc49-4456-a9fa-b7dc4501e9bd": {
+      "id": "cb49aa07-bc49-4456-a9fa-b7dc4501e9bd",
+      "label": "Digit",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 40
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": -30.000082969665527,
+          "y": -170.00016021728516
+        }
+      },
+      "type": "xor"
+    },
+    "cbff96f2-3146-48ef-a3d7-477691c32190": {
+      "id": "cbff96f2-3146-48ef-a3d7-477691c32190",
+      "label": "Fizz",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 40
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 350.0001220703125,
+          "y": -190.00025939941406
+        }
+      },
+      "type": "xor"
+    },
+    "root": {
+      "children": {
+        "5c1c5479-990c-4330-9f8c-67d9ea8f466b": true,
+        "6bd542c1-ff26-490e-be28-32cc0bd87034": true,
+        "c81d0776-d4ad-470e-9070-28ded98c3f19": true,
+        "cb49aa07-bc49-4456-a9fa-b7dc4501e9bd": true,
+        "cbff96f2-3146-48ef-a3d7-477691c32190": true
+      },
+      "id": "root",
+      "style": {},
+      "type": "root"
+    }
+  }
+}

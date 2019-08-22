@@ -1,0 +1,70 @@
+{
+  "connections": {},
+  "states": {
+    "17c813fa-0b0e-465b-ba08-b0951396c228": {
+      "children": {},
+      "id": "17c813fa-0b0e-465b-ba08-b0951396c228",
+      "label": "T",
+      "parent": "23f8c25b-6ad2-4d66-addc-c6a3c989ff37",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 40
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 109.99998474121094,
+          "y": 60.00002670288086
+        }
+      },
+      "type": "xor"
+    },
+    "23f8c25b-6ad2-4d66-addc-c6a3c989ff37": {
+      "children": {
+        "17c813fa-0b0e-465b-ba08-b0951396c228": true,
+        "8108d896-1737-4fb6-a3f7-acb567bde071": true
+      },
+      "id": "23f8c25b-6ad2-4d66-addc-c6a3c989ff37",
+      "label": "R | in S \u2261 in T",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 110,
+          "w": 130
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 70,
+          "y": -10
+        }
+      },
+      "type": "and"
+    },
+    "8108d896-1737-4fb6-a3f7-acb567bde071": {
+      "children": {},
+      "id": "8108d896-1737-4fb6-a3f7-acb567bde071",
+      "label": "S",
+      "parent": "23f8c25b-6ad2-4d66-addc-c6a3c989ff37",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 40
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 110.00003051757812,
+          "y": 20
+        }
+      },
+      "type": "xor"
+    },
+    "root": {
+      "children": {
+        "23f8c25b-6ad2-4d66-addc-c6a3c989ff37": true
+      },
+      "id": "root",
+      "style": {},
+      "type": "root"
+    }
+  }
+}
