@@ -34,18 +34,6 @@ from IPython.display import display
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-pChart("water_monitoring").chart
-
-```
-</div>
-
-</div>
-
-
-
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
 display(pChart("water_monitoring"))
 
 ```
