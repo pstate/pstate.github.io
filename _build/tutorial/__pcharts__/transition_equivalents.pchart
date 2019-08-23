@@ -147,7 +147,7 @@
           "h": 100,
           "w": 110
         },
-        "placeholderVisible": true,
+        "placeholderVisible": false,
         "position": {
           "x": -29.999926567077637,
           "y": 0

@@ -63,7 +63,6 @@ display(pChart("empty"))
 
 ### Types of States
 There are five state types, namely:
-
   1. XOR
   2. AND
   3. Initial
@@ -104,7 +103,7 @@ display(pChart("states"))
 
 
 ### Resizing States
-States can be resized by selecting the `select` tool, clicking on the state, and dragging on the edge. Only XOR and AND states are resizeable. While creating states, you can click and drag to resize the state. Follow up on the previous exercise by resizing the XOR state to be a 4x4 square. 
+States can be resized by selecting the `select` tool, clicking on the state, and dragging on the edge. Only XOR and AND states are resizeable. While creating states, you can click and drag to resize the state. Follow up on the previous exercise by resizing the XOR state to be a 4x4 square. States can be moved using the same tool.
 
 **Note**: The design of pState allows for multiple instances of the same chart to be displayed. Modifications in one instance will modify the other instance.
 
@@ -324,6 +323,18 @@ display(pChart("guarded_transitions"))
 
 
 
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+display(pChart("traffic_lights"))
+
+```
+</div>
+
+</div>
+
+
+
 ### Actions
 When a transition fires, a specified action can occur. They are in the form `/ Statement`. The basic actions are:
 * Assignment statements
@@ -345,6 +356,38 @@ display(pChart("actions"))
 
 
 
+Multiple actions can be done on the same transition.
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+display(pChart("actions2"))
+
+```
+</div>
+
+</div>
+
+
+
+Below is a vending machine for tea and coffee.
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+display(pChart("vending_machine"))
+
+```
+</div>
+
+</div>
+
+
+
 ---
 ## Hierachical State Machines
 
@@ -354,7 +397,6 @@ In this example:
   * B is both a substate of A and a superstate of C & D. 
   * C and D are both atomic states.
 
-Don't worry about the dashed line in the middle of state B, this will be explained in the next section.
 
 
 
@@ -410,19 +452,7 @@ display(pChart("transition_equivalents3"))
 
 
 
-If you remember the accessibility example from earlier, it was messy due to the repetition of transitions with the buttonPressed event. This can be solved using a hierarchical structure for the system. As a refresher, both the original and modified example will be shown below.
-
-
-
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
-display(pChart("accessibility_door"))
-
-```
-</div>
-
-</div>
+If you remember the accessibility example from earlier, it was messy due to the repetition of transitions with the buttonPressed event. This can be solved using a hierarchical structure for the system.
 
 
 
@@ -454,7 +484,7 @@ display(pChart("transmission"))
 
 
 
-**Note**: individual states can be a chart, meaning you can the chart components can be drawn in different cells. Below is the previous example but drawn with the Forward state in a different chart.
+**Note**: individual states can be a chart, meaning you can the chart components can be drawn in different cells. Below is the previous example but drawn with the Forward state in a different chart. This is a very effective technique for modelling.
 
 
 
@@ -484,7 +514,7 @@ display(pChart("transmission_only"))
 
 ---
 ## Concurrency
-In a system, there may be multiple components that have their own state and act independently. Looking below, when in state R, the system will be in both states S and T. On top of this, if 
+In a system, there may be multiple components that have their own state and act independently. Looking below, when in state R, the system will be in both states S and T. If event E is triggered, then the transitions from S1 to S2 and from T1 to T2 will both take place simultaneously. 
 
 
 
@@ -500,31 +530,8 @@ display(pChart("concurrency"))
 
 
 
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
-display(pChart("concurrency_transitions")) # Not sure how to implement this
-
-```
-</div>
-
-</div>
-
-
-
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
-display(pChart("concurrency_transitions2")) # Not sure how to implement this
-
-```
-</div>
-
-</div>
-
-
-
-Using our car transmission example from before, we can extend it with a concurrent _ignition_ state.
+Using our car transmission example from before, we can extend it with a concurrent _ignition_ state. <br>
+*As an aside*: Using two separate statecharts and combining them, allows for separate components which may be swapped. This is useful for testing models.
 
 
 
@@ -553,7 +560,7 @@ display(pChart("car"))
 
 
 ### Event Broadcasting
-Events can be broadcast. In example below, if the system is in state S1, and event E occurs, the transition is fired, and the event F is broadcast. The transition from state T1 to T2 fires on the event F, so if event E occurs, this transition will fire too. 
+Events can be broadcast. In example below, if the system is in state S1, and event E occurs, the transition is fired, and the event F is broadcast. The transition from state T1 to T2 then fires on the event F, which was broadcast earlier. 
 
 
 
@@ -569,9 +576,41 @@ display(pChart("event_broadcasting"))
 
 
 
+Using event broadcasting, we can modify our lightbulb example, separating the switch and the light. 
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+display(pChart("smart_lightbulb_modified"))
+
+```
+</div>
+
+</div>
+
+
+
+A non deterministic example of a tea and coffee dispenser (with coins abstracted away), where the user and the dispenser are modelled concurrently. When User makes a request, it is unknown if the option will be tea or coffee.
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+display(pChart("tea_coffee_dispenser"))
+
+```
+</div>
+
+</div>
+
+
+
 ---
 ## Local Variables
-When labelling states, variables can be declared 
+
 
 
 
@@ -580,7 +619,48 @@ When labelling states, variables can be declared
 
 
 
-In this example, if ParkingSpaces is in state Empty, then there must also be 0 cars in Garage. If ParkingSpaces is in state Full, then there must be 10 cars in Garage. If Cleanliness is in the Dirty state, then there must be more than 100 units of dirt in Garage.
+A state invariant is a restriction on the possible state of a system. <br>
+Examples of state invariants: 
+* The cars speedometer maxes out at 200 km/h, and can not be lower than 0 km/h.
+* Water is liquid between 0 and 100 degrees celsius.
+
+More formally, invariants are predicates over global variables. A quick, more abstract example is: in some state Q, x is greater than 0. Below is the syntax of state invariants in pState, where E is the predicate.
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+display(pChart("state_invariants"))
+
+```
+</div>
+
+</div>
+
+
+
+The example given below is simple. Since S and T are concurrent in R, R is always in both of these states.
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+display(pChart("state_invariants2"))
+
+```
+</div>
+
+</div>
+
+
+
+Below is an example of a parking garage. Cars are parked and unparked, and the garage has a maximum capacity of 10 cars. Parking and unparking cars spreads dirt around and it needs to be cleaned in order to get rid of the dirt. The garage can only be cleaned if there are no cars in the garage.<br>
+The state invariants in this example are:
+* If ParkingSpaces is in state Empty, then there must also be 0 cars in Garage. 
+* If ParkingSpaces is in state Full, then there must be 10 cars in Garage. 
+* If Cleanliness is in the Dirty state, then there must be more than 100 units of dirt in Garage.
 
 
 
@@ -596,7 +676,10 @@ display(pChart("garage"))
 
 
 
-Below gives an example of a system with invariants. The TV control activity is partitioned into two states, Working and Standby. The initial state is Standby. When the chart is in the Working state, it is in both the Picture and Sound states. Within XOR state Picture, the chart is in one of the state WarmingUp or Displaying. Within XOR state Sound, the system is in one of the states Waiting, On, or Off. The invariant of Working is that whenever Picture is in Displaying, Sound must not be in Waiting, i.e. must be either in On or Off. The invariant of Sound states that the sound level _lev_ must be between 1 and 10. The event _power_ causes the chart to flip between Standby and Working, no matter in which substates of Working the chart is. The transition on event warm broadcasts event _soundOn_. The transition on events down can only be taken if lev > 1 and when taken, will decrement lev. The transition on power to Working sets Picture and Sound to the default initial states WarmingUp and Waiting and sets lev to 5.
+Below is an example of a TV set. The picture and sound are separate systems. The TV can be turned on and off, and the sound can be adjusted.<br>
+The invariants in this example are: 
+* Whenever Picture is in Displaying, Sound must not be in Waiting, i.e. must be either in On or Off. 
+* The sound level _lev_ must be between 1 and 10.
 
 
 
@@ -613,19 +696,29 @@ display(pChart("tv_set"))
 
 
 ---
-## Conditions
+## Choice
+Choice pseudostates allows for the branching of systems. A simple, abstract example can be seen below. On event E, the system will transition from Q to:
+* R if F is true
+* S if G is true
+* T if H is true
+
+If multiple conditions are true, you will run into non-deterministic behaviour. This is usually a problem, however it is allowed in pState. If no conditions are true, **What happens in pState**. 
 
 
 
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-display(pChart("conditionals"))
+display(pChart("choice"))
 
 ```
 </div>
 
 </div>
+
+
+
+This example of a home temperature monitor has simple conditions, and uses the choice pseudostate to implement the behaviour attached. Notice that in this example, there is no non-determinism. 
 
 
 
@@ -641,9 +734,53 @@ display(pChart("temperature_monitor"))
 
 
 
+Previously, we saw an example of a parking garage. The chart looked very cluttered due to the amount of conditional statements. Below is a modified example using choices which hopefully creates a cleaner chart that is easier to read.
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+display(pChart("garage_choice"))
+
+```
+</div>
+
+</div>
+
+
+
 ---
 ## Costs & Rewards
-Costs can be associated with both states and transitions.
+Costs can be associated with both states and transitions, both shown below. Costs accumulate over the running of the system. Examples of costs would be $\frac{J}{s}$ (Joules per second, also known as Watts) and $\frac{m^3}{s}$ (cubic meters per second, flow rate). 
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+display(pChart("costs"))
+
+```
+</div>
+
+</div>
+
+
+
+Say you wanted to measure how large a battery some system requires. Battery capacity is measured in mAh (milli-amp hours), so you would want your costs to be in mA. Since costs are accumulated, the amount of time the
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+display(pChart("smart_lightbulb_costs"))
+
+```
+</div>
+
+</div>
 
 
 
@@ -679,4 +816,22 @@ display(pChart("sender_reciever"))
 </div>
 
 </div>
+
+
+
+## Method of Modelling
+An effective way to start creating your own models with pState (or statecharts in general), a good rule of thumb is to follow these steps:
+1. Start with some list of events that are possible in your model.
+2. List all the possible states in your model. Group them if necessary (using what we've shown in this tutorial)
+3. Decide on the transitions.
+
+Some things to take note of:
+* When deciding on your states, sometimes what you may want is a variable to represent a state or  even multiple states. For example, if there is some behaviour which can be modelled using a boolean value (On or Off, 1 or 0 etc.), you may be better off representing it with a variable. 
+* You should always try to avoid race conditions in your models (the outcome depends on the order transitions are fired in)
+
+
+
+
+## Conclusion
+For more examples, click [here](https://pstate.github.io/examples/examples.html). For detailed documentation on pState, click [here](https://pstate.github.io/documentation/pstate-core/core.html). 
 

@@ -1,0 +1,174 @@
+{
+  "connections": {
+    "28a881b5-61b6-4454-b62b-45b0a3b7a2bb": {
+      "id": "28a881b5-61b6-4454-b62b-45b0a3b7a2bb",
+      "label": "E",
+      "source": "a2ef0f0e-2be1-4c13-b1fb-10f075d64ae7",
+      "style": {
+        "labelPos": {
+          "x": 100.7265625,
+          "y": 98.1171875
+        },
+        "labelSize": {
+          "h": 16.234375,
+          "w": 8.546875
+        },
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "0fa5cbd2-b208-40fb-9ec4-bf6860e32263"
+    },
+    "47d6b136-ef33-4882-a3b9-3a396e03061f": {
+      "id": "47d6b136-ef33-4882-a3b9-3a396e03061f",
+      "label": "[F]",
+      "source": "0fa5cbd2-b208-40fb-9ec4-bf6860e32263",
+      "style": {
+        "labelPos": {
+          "x": 200.0243826145079,
+          "y": 31
+        },
+        "labelSize": {
+          "h": 16.234375,
+          "w": 15.28125
+        },
+        "labelSticky": true,
+        "placeholderVisible": true,
+        "showLabelLink": true
+      },
+      "target": "fd1b8a0a-efc9-435b-a0a4-f0817a18356c"
+    },
+    "cab66e03-b1be-4e46-b4ed-b25338dc8d4e": {
+      "id": "cab66e03-b1be-4e46-b4ed-b25338dc8d4e",
+      "label": "[H]",
+      "source": "0fa5cbd2-b208-40fb-9ec4-bf6860e32263",
+      "style": {
+        "labelPos": {
+          "x": 205.09089383212003,
+          "y": 99
+        },
+        "labelSize": {
+          "h": 16.234375,
+          "w": 17.359375
+        },
+        "labelSticky": true,
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "57205702-ad9d-4dd1-b621-c581c8ea46be"
+    },
+    "d9f7ece8-39f3-4865-bed9-9ac5d5a4fd98": {
+      "id": "d9f7ece8-39f3-4865-bed9-9ac5d5a4fd98",
+      "label": "[G]",
+      "source": "0fa5cbd2-b208-40fb-9ec4-bf6860e32263",
+      "style": {
+        "labelPos": {
+          "x": 201.0625,
+          "y": 68.11719512939453
+        },
+        "labelSize": {
+          "h": 16.234375,
+          "w": 17.875
+        },
+        "labelSticky": true,
+        "path": [],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "42f327ec-1c41-4f9d-89d5-e477b3e88fb5"
+    }
+  },
+  "states": {
+    "0fa5cbd2-b208-40fb-9ec4-bf6860e32263": {
+      "id": "0fa5cbd2-b208-40fb-9ec4-bf6860e32263",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": 150,
+          "y": 90
+        },
+        "radius": 20
+      },
+      "type": "choice"
+    },
+    "42f327ec-1c41-4f9d-89d5-e477b3e88fb5": {
+      "id": "42f327ec-1c41-4f9d-89d5-e477b3e88fb5",
+      "label": "S",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 40
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 250,
+          "y": 75
+        }
+      },
+      "type": "xor"
+    },
+    "57205702-ad9d-4dd1-b621-c581c8ea46be": {
+      "id": "57205702-ad9d-4dd1-b621-c581c8ea46be",
+      "label": "T",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 40
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 250,
+          "y": 140
+        }
+      },
+      "type": "xor"
+    },
+    "a2ef0f0e-2be1-4c13-b1fb-10f075d64ae7": {
+      "id": "a2ef0f0e-2be1-4c13-b1fb-10f075d64ae7",
+      "label": "Q",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 40
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 40,
+          "y": 75
+        }
+      },
+      "type": "xor"
+    },
+    "fd1b8a0a-efc9-435b-a0a4-f0817a18356c": {
+      "id": "fd1b8a0a-efc9-435b-a0a4-f0817a18356c",
+      "label": "R",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 40
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 250,
+          "y": 10
+        }
+      },
+      "type": "xor"
+    },
+    "root": {
+      "children": {
+        "0fa5cbd2-b208-40fb-9ec4-bf6860e32263": true,
+        "42f327ec-1c41-4f9d-89d5-e477b3e88fb5": true,
+        "57205702-ad9d-4dd1-b621-c581c8ea46be": true,
+        "a2ef0f0e-2be1-4c13-b1fb-10f075d64ae7": true,
+        "fd1b8a0a-efc9-435b-a0a4-f0817a18356c": true
+      },
+      "id": "root",
+      "style": {},
+      "type": "root"
+    }
+  }
+}

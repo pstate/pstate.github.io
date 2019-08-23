@@ -58,7 +58,7 @@
             "y": 85
           }
         ],
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "showLabelLink": true
       },
       "target": "98dc6f08-0b99-4c80-8129-b84c76b0247f"
@@ -156,7 +156,7 @@
             "y": 265
           }
         ],
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "showLabelLink": true
       },
       "target": "d3128c60-7f03-4a42-afe1-990b1624ad6d"
@@ -256,7 +256,7 @@
             "y": 135
           }
         ],
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "showLabelLink": true
       },
       "target": "878cdb0a-7176-4a33-aecb-59159c77a48e"
@@ -422,7 +422,7 @@
           "h": 30,
           "w": 60
         },
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "position": {
           "x": 249.9998779296875,
           "y": 240.00010681152344

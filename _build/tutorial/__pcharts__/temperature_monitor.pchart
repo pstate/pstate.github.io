@@ -41,12 +41,8 @@
         "labelSticky": true,
         "path": [
           {
-            "x": 65,
-            "y": 170
-          },
-          {
-            "x": -50,
-            "y": 170
+            "x": -55,
+            "y": 180.00001525878906
           }
         ],
         "placeholderVisible": false,
@@ -61,7 +57,7 @@
       "style": {
         "labelPos": {
           "x": -31.7265625,
-          "y": 48.89060974121094
+          "y": 38.89060974121094
         },
         "labelSize": {
           "h": 16.28125,
@@ -70,12 +66,8 @@
         "labelSticky": true,
         "path": [
           {
-            "x": -50,
-            "y": 70
-          },
-          {
-            "x": 60,
-            "y": 75
+            "x": -60,
+            "y": 55.000003814697266
           }
         ],
         "placeholderVisible": false,
@@ -111,7 +103,7 @@
         },
         "labelSticky": true,
         "path": [],
-        "placeholderVisible": true,
+        "placeholderVisible": false,
         "showLabelLink": true
       },
       "target": "fcd671d7-b21d-4f83-b4f3-5c0db1049f2a"
@@ -329,7 +321,7 @@
           "h": 30,
           "w": 65
         },
-        "placeholderVisible": true,
+        "placeholderVisible": false,
         "position": {
           "x": -90.0001106262207,
           "y": 100

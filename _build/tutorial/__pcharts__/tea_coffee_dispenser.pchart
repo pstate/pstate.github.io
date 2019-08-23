@@ -1,0 +1,384 @@
+{
+  "connections": {
+    "1ad06ab9-5494-43ac-9aa8-a61c9c2eb278": {
+      "id": "1ad06ab9-5494-43ac-9aa8-a61c9c2eb278",
+      "source": "58455b6e-6c27-4257-933a-0d28761702da",
+      "style": {
+        "labelPos": {
+          "x": 170,
+          "y": 292
+        },
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "9b206cb3-2f3d-4dfc-9cd1-7101d3f2ce4f"
+    },
+    "28a6a6f3-7da5-45c8-98fb-907b56d60c13": {
+      "id": "28a6a6f3-7da5-45c8-98fb-907b56d60c13",
+      "label": "request / pushTea",
+      "source": "d109fdb2-dde2-4286-91b2-69b4b015ddf5",
+      "style": {
+        "labelPos": {
+          "x": 206.74221801757812,
+          "y": 97.62498474121094
+        },
+        "labelSize": {
+          "h": 16.25,
+          "w": 111.75
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 265,
+            "y": 115.00000762939453
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "f58d9a69-7cd9-452b-bf92-307eef309122"
+    },
+    "5ac9c3e0-9408-4c4a-bdee-74755968babd": {
+      "id": "5ac9c3e0-9408-4c4a-bdee-74755968babd",
+      "label": "pushCoffee",
+      "source": "9b206cb3-2f3d-4dfc-9cd1-7101d3f2ce4f",
+      "style": {
+        "labelPos": {
+          "x": 338.22222222222223,
+          "y": 306
+        },
+        "labelSize": {
+          "h": 16.25,
+          "w": 72.109375
+        },
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "4a980436-2bce-4b55-9de8-381b0a4c419d"
+    },
+    "7bc89c95-5895-4c00-9065-a197795a2ab9": {
+      "id": "7bc89c95-5895-4c00-9065-a197795a2ab9",
+      "label": "dispensed / ready",
+      "source": "4a980436-2bce-4b55-9de8-381b0a4c419d",
+      "style": {
+        "labelPos": {
+          "x": 111.47423624254995,
+          "y": 340
+        },
+        "labelSize": {
+          "h": 16.25,
+          "w": 112
+        },
+        "path": [
+          {
+            "x": 235.00001525878906,
+            "y": 358.5
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "9b206cb3-2f3d-4dfc-9cd1-7101d3f2ce4f"
+    },
+    "7f5508e4-891b-4b53-87d7-25271fc38bbe": {
+      "id": "7f5508e4-891b-4b53-87d7-25271fc38bbe",
+      "source": "f881e8c4-cfd6-4c0f-ae3b-32439b0cde16",
+      "style": {
+        "labelPos": {
+          "x": 120,
+          "y": 127.5
+        },
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "d109fdb2-dde2-4286-91b2-69b4b015ddf5"
+    },
+    "8b78473f-24bd-4403-865d-280f0947496f": {
+      "id": "8b78473f-24bd-4403-865d-280f0947496f",
+      "label": "request / pushCoffee",
+      "source": "d109fdb2-dde2-4286-91b2-69b4b015ddf5",
+      "style": {
+        "labelPos": {
+          "x": 196.7421875,
+          "y": 138.62499237060547
+        },
+        "labelSize": {
+          "h": 16.25,
+          "w": 131.484375
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 265,
+            "y": 134.99998474121094
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "f58d9a69-7cd9-452b-bf92-307eef309122"
+    },
+    "9a72df30-7813-45b4-8fba-9289bb28d65d": {
+      "id": "9a72df30-7813-45b4-8fba-9289bb28d65d",
+      "label": "ready",
+      "source": "f58d9a69-7cd9-452b-bf92-307eef309122",
+      "style": {
+        "labelPos": {
+          "x": 271.3146957086103,
+          "y": 54.99998474121094
+        },
+        "labelSize": {
+          "h": 16.25,
+          "w": 34.75
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 385.00006103515625,
+            "y": 94.99999237060547
+          },
+          {
+            "x": 283.7499313354492,
+            "y": 80.74999809265137
+          },
+          {
+            "x": 182.4998016357422,
+            "y": 86.49997329711914
+          }
+        ],
+        "placeholderVisible": false
+      },
+      "target": "d109fdb2-dde2-4286-91b2-69b4b015ddf5"
+    },
+    "9bd7ef19-1780-49a6-8316-7963199875b9": {
+      "id": "9bd7ef19-1780-49a6-8316-7963199875b9",
+      "label": "pushTea",
+      "source": "9b206cb3-2f3d-4dfc-9cd1-7101d3f2ce4f",
+      "style": {
+        "labelPos": {
+          "x": 330.9846725463867,
+          "y": 269.12498474121094
+        },
+        "labelSize": {
+          "h": 16.25,
+          "w": 52.375
+        },
+        "labelSticky": true,
+        "path": [],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "5ff3f23a-10b6-427a-be85-c8d17a356e0c"
+    },
+    "e9cdf83b-8cd9-41bc-9cfc-c596e037cc30": {
+      "id": "e9cdf83b-8cd9-41bc-9cfc-c596e037cc30",
+      "label": "dispensed / ready",
+      "source": "5ff3f23a-10b6-427a-be85-c8d17a356e0c",
+      "style": {
+        "labelPos": {
+          "x": 74.10180688853723,
+          "y": 231.99996948242188
+        },
+        "labelSize": {
+          "h": 16.25,
+          "w": 112
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 235.00001525878906,
+            "y": 230.99993896484375
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "9b206cb3-2f3d-4dfc-9cd1-7101d3f2ce4f"
+    }
+  },
+  "states": {
+    "09a3de6c-83a2-4b8b-bffc-a32e365722b5": {
+      "children": {
+        "d109fdb2-dde2-4286-91b2-69b4b015ddf5": true,
+        "f58d9a69-7cd9-452b-bf92-307eef309122": true,
+        "f881e8c4-cfd6-4c0f-ae3b-32439b0cde16": true
+      },
+      "id": "09a3de6c-83a2-4b8b-bffc-a32e365722b5",
+      "label": "User",
+      "parent": "18a7b5b1-a37d-4ff6-913d-06f87cd7f325",
+      "style": {
+        "dimensions": {
+          "h": 140,
+          "w": 450
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 50,
+          "y": 40
+        }
+      },
+      "type": "xor"
+    },
+    "118d0621-df63-4def-ae98-a138d7823a64": {
+      "children": {
+        "4a980436-2bce-4b55-9de8-381b0a4c419d": true,
+        "58455b6e-6c27-4257-933a-0d28761702da": true,
+        "5ff3f23a-10b6-427a-be85-c8d17a356e0c": true,
+        "9b206cb3-2f3d-4dfc-9cd1-7101d3f2ce4f": true
+      },
+      "id": "118d0621-df63-4def-ae98-a138d7823a64",
+      "label": "Dispenser",
+      "parent": "18a7b5b1-a37d-4ff6-913d-06f87cd7f325",
+      "style": {
+        "dimensions": {
+          "h": 190,
+          "w": 450
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 50,
+          "y": 199.99996948242188
+        }
+      },
+      "type": "xor"
+    },
+    "18a7b5b1-a37d-4ff6-913d-06f87cd7f325": {
+      "children": {
+        "09a3de6c-83a2-4b8b-bffc-a32e365722b5": true,
+        "118d0621-df63-4def-ae98-a138d7823a64": true
+      },
+      "id": "18a7b5b1-a37d-4ff6-913d-06f87cd7f325",
+      "label": "System",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 390,
+          "w": 470
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 40,
+          "y": 10
+        }
+      },
+      "type": "and"
+    },
+    "4a980436-2bce-4b55-9de8-381b0a4c419d": {
+      "id": "4a980436-2bce-4b55-9de8-381b0a4c419d",
+      "label": "Coffee",
+      "parent": "118d0621-df63-4def-ae98-a138d7823a64",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 60
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 410.0003356933594,
+          "y": 339.99993896484375
+        }
+      },
+      "type": "xor"
+    },
+    "58455b6e-6c27-4257-933a-0d28761702da": {
+      "id": "58455b6e-6c27-4257-933a-0d28761702da",
+      "parent": "118d0621-df63-4def-ae98-a138d7823a64",
+      "style": {
+        "position": {
+          "x": 120.00006103515625,
+          "y": 289.99993896484375
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
+    "5ff3f23a-10b6-427a-be85-c8d17a356e0c": {
+      "id": "5ff3f23a-10b6-427a-be85-c8d17a356e0c",
+      "label": "Tea",
+      "parent": "118d0621-df63-4def-ae98-a138d7823a64",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 60
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 410.0003356933594,
+          "y": 219.99996948242188
+        }
+      },
+      "type": "xor"
+    },
+    "9b206cb3-2f3d-4dfc-9cd1-7101d3f2ce4f": {
+      "id": "9b206cb3-2f3d-4dfc-9cd1-7101d3f2ce4f",
+      "label": "Idle",
+      "parent": "118d0621-df63-4def-ae98-a138d7823a64",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 40
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 210.00013732910156,
+          "y": 279.99993896484375
+        }
+      },
+      "type": "xor"
+    },
+    "d109fdb2-dde2-4286-91b2-69b4b015ddf5": {
+      "id": "d109fdb2-dde2-4286-91b2-69b4b015ddf5",
+      "label": "Initial",
+      "parent": "09a3de6c-83a2-4b8b-bffc-a32e365722b5",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 50
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 150,
+          "y": 109.99998474121094
+        }
+      },
+      "type": "xor"
+    },
+    "f58d9a69-7cd9-452b-bf92-307eef309122": {
+      "id": "f58d9a69-7cd9-452b-bf92-307eef309122",
+      "label": "Waiting",
+      "parent": "09a3de6c-83a2-4b8b-bffc-a32e365722b5",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 70
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 360,
+          "y": 110
+        }
+      },
+      "type": "xor"
+    },
+    "f881e8c4-cfd6-4c0f-ae3b-32439b0cde16": {
+      "id": "f881e8c4-cfd6-4c0f-ae3b-32439b0cde16",
+      "parent": "09a3de6c-83a2-4b8b-bffc-a32e365722b5",
+      "style": {
+        "position": {
+          "x": 80.00001525878906,
+          "y": 130.0000228881836
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
+    "root": {
+      "children": {
+        "18a7b5b1-a37d-4ff6-913d-06f87cd7f325": true
+      },
+      "id": "root",
+      "style": {},
+      "type": "root"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "connections": {
+    "2775de9e-3133-4f95-a7f4-6e4b3a6dc4ca": {
+      "id": "2775de9e-3133-4f95-a7f4-6e4b3a6dc4ca",
+      "source": "78b688c8-dd2d-4ea2-b6b3-47cfb7a970c3",
+      "style": {
+        "placeholderVisible": false
+      },
+      "target": "d7e63601-3719-4ad5-9c13-7e5d232eaba8"
+    }
+  },
+  "states": {
+    "47acb974-dcd5-41c6-a833-af69f65d0287": {
+      "id": "47acb974-dcd5-41c6-a833-af69f65d0287",
+      "label": "RobotBase",
+      "parent": "d7e63601-3719-4ad5-9c13-7e5d232eaba8",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 90
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 80,
+          "y": 60
+        }
+      },
+      "type": "xor"
+    },
+    "78b688c8-dd2d-4ea2-b6b3-47cfb7a970c3": {
+      "id": "78b688c8-dd2d-4ea2-b6b3-47cfb7a970c3",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": 40,
+          "y": 80
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
+    "d7e63601-3719-4ad5-9c13-7e5d232eaba8": {
+      "children": {
+        "47acb974-dcd5-41c6-a833-af69f65d0287": true,
+        "e84506a3-9c5d-4438-99cd-6676a954feb6": true
+      },
+      "id": "d7e63601-3719-4ad5-9c13-7e5d232eaba8",
+      "label": "Robot",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 120,
+          "w": 110
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 70,
+          "y": 30
+        }
+      },
+      "type": "and"
+    },
+    "e84506a3-9c5d-4438-99cd-6676a954feb6": {
+      "id": "e84506a3-9c5d-4438-99cd-6676a954feb6",
+      "label": "RobotArms",
+      "parent": "d7e63601-3719-4ad5-9c13-7e5d232eaba8",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 90
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 80.00007629394531,
+          "y": 109.99998474121094
+        }
+      },
+      "type": "xor"
+    },
+    "root": {
+      "children": {
+        "78b688c8-dd2d-4ea2-b6b3-47cfb7a970c3": true,
+        "d7e63601-3719-4ad5-9c13-7e5d232eaba8": true
+      },
+      "id": "root",
+      "style": {},
+      "type": "root"
+    }
+  }
+}

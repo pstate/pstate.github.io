@@ -1,0 +1,278 @@
+{
+  "connections": {
+    "0f71f232-e8ba-4ad3-8d44-504a708dc47f": {
+      "id": "0f71f232-e8ba-4ad3-8d44-504a708dc47f",
+      "label": "dispensed [a = 50]",
+      "source": "ce95d5ed-3da1-4110-9bf8-9fb46a7f6eff",
+      "style": {
+        "labelPos": {
+          "x": -82.42766439503637,
+          "y": 38.99993896484375
+        },
+        "labelSize": {
+          "h": 16.5,
+          "w": 115.21875
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": -15,
+            "y": 125
+          }
+        ],
+        "placeholderVisible": false
+      },
+      "target": "16b3fc80-32c3-4eec-9dfc-a5f65c12ff91"
+    },
+    "474da872-532a-4c0d-bed1-7bd8882c5eb1": {
+      "id": "474da872-532a-4c0d-bed1-7bd8882c5eb1",
+      "label": "coin / a:=c",
+      "source": "16b3fc80-32c3-4eec-9dfc-a5f65c12ff91",
+      "style": {
+        "labelPos": {
+          "x": 45.6875,
+          "y": -6.7265625
+        },
+        "labelSize": {
+          "h": 16.5,
+          "w": 66.203125
+        },
+        "labelSticky": true,
+        "path": [],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "066a4118-deaa-4fa8-a750-d3c8520b2dfa"
+    },
+    "4fbed356-dee0-459c-a13e-f2b36ed3448d": {
+      "id": "4fbed356-dee0-459c-a13e-f2b36ed3448d",
+      "label": "pushCoffee [a>=50] / coffee",
+      "source": "066a4118-deaa-4fa8-a750-d3c8520b2dfa",
+      "style": {
+        "labelPos": {
+          "x": 45.45311737060547,
+          "y": 52.02345275878906
+        },
+        "labelSize": {
+          "h": 16.5,
+          "w": 174.234375
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 250.00001525878906,
+            "y": 59.99996566772461
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "ce95d5ed-3da1-4110-9bf8-9fb46a7f6eff"
+    },
+    "5a14e381-f1a3-4b71-b338-4980e41ea475": {
+      "id": "5a14e381-f1a3-4b71-b338-4980e41ea475",
+      "label": "60s / returnAll",
+      "source": "066a4118-deaa-4fa8-a750-d3c8520b2dfa",
+      "style": {
+        "labelPos": {
+          "x": 62.4140625,
+          "y": -71.72653198242188
+        },
+        "labelSize": {
+          "h": 16.5,
+          "w": 87.109375
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 95.00016593933105,
+            "y": -49.999996185302734
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "16b3fc80-32c3-4eec-9dfc-a5f65c12ff91"
+    },
+    "6a14c7e4-758c-4a4a-8f7e-33dfc109b790": {
+      "id": "6a14c7e4-758c-4a4a-8f7e-33dfc109b790",
+      "label": "pushTea [a>=50] / tea",
+      "source": "066a4118-deaa-4fa8-a750-d3c8520b2dfa",
+      "style": {
+        "labelPos": {
+          "x": 276.37488555908203,
+          "y": 47.99998474121094
+        },
+        "labelSize": {
+          "h": 16.5,
+          "w": 135.28125
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 280.0000915527344,
+            "y": -5.000039577484131
+          },
+          {
+            "x": 271.6250648498535,
+            "y": 69.87498480081558
+          },
+          {
+            "x": 283.2500991821289,
+            "y": 144.7500091791153
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "ce95d5ed-3da1-4110-9bf8-9fb46a7f6eff"
+    },
+    "8c599fdd-f81d-4ad0-b72d-05e9e20d4c0b": {
+      "id": "8c599fdd-f81d-4ad0-b72d-05e9e20d4c0b",
+      "source": "bd568cdd-2c13-4af5-91df-4f4bf51c26be",
+      "style": {
+        "labelPos": {
+          "x": -75,
+          "y": -18
+        },
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "16b3fc80-32c3-4eec-9dfc-a5f65c12ff91"
+    },
+    "b7374134-ed6d-4227-856e-41c846130660": {
+      "id": "b7374134-ed6d-4227-856e-41c846130660",
+      "label": "coin / a:=a+c",
+      "source": "066a4118-deaa-4fa8-a750-d3c8520b2dfa",
+      "style": {
+        "labelPos": {
+          "x": 198.5296875,
+          "y": -73.12654724121094
+        },
+        "labelSize": {
+          "h": 16.5,
+          "w": 82.125
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 250,
+            "y": -20
+          },
+          {
+            "x": 250,
+            "y": -45
+          },
+          {
+            "x": 225.00006103515625,
+            "y": -45
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "066a4118-deaa-4fa8-a750-d3c8520b2dfa"
+    },
+    "d5dfa525-d4b2-4793-9ff8-14c80df847b3": {
+      "id": "d5dfa525-d4b2-4793-9ff8-14c80df847b3",
+      "label": "dispensed [a >= 50] / returnChange",
+      "source": "ce95d5ed-3da1-4110-9bf8-9fb46a7f6eff",
+      "style": {
+        "labelPos": {
+          "x": -0.15633010864257812,
+          "y": 81.99995422363281
+        },
+        "labelSize": {
+          "h": 16.5,
+          "w": 221.609375
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": -35.000057220458984,
+            "y": 135.0000114440918
+          }
+        ],
+        "placeholderVisible": true,
+        "showLabelLink": true
+      },
+      "target": "16b3fc80-32c3-4eec-9dfc-a5f65c12ff91"
+    }
+  },
+  "states": {
+    "066a4118-deaa-4fa8-a750-d3c8520b2dfa": {
+      "id": "066a4118-deaa-4fa8-a750-d3c8520b2dfa",
+      "label": "Collect",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 60
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 170,
+          "y": -30
+        }
+      },
+      "type": "xor"
+    },
+    "16b3fc80-32c3-4eec-9dfc-a5f65c12ff91": {
+      "id": "16b3fc80-32c3-4eec-9dfc-a5f65c12ff91",
+      "label": "Idle",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 40
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": -29.999995231628418,
+          "y": -29.999991416931152
+        }
+      },
+      "type": "xor"
+    },
+    "bd568cdd-2c13-4af5-91df-4f4bf51c26be": {
+      "id": "bd568cdd-2c13-4af5-91df-4f4bf51c26be",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": -70.00001525878906,
+          "y": -50
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
+    "ce95d5ed-3da1-4110-9bf8-9fb46a7f6eff": {
+      "id": "ce95d5ed-3da1-4110-9bf8-9fb46a7f6eff",
+      "label": "Dispense",
+      "parent": "root",
+      "style": {
+        "dimensions": {
+          "h": 30,
+          "w": 80
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 170,
+          "y": 130
+        }
+      },
+      "type": "xor"
+    },
+    "root": {
+      "children": {
+        "066a4118-deaa-4fa8-a750-d3c8520b2dfa": true,
+        "16b3fc80-32c3-4eec-9dfc-a5f65c12ff91": true,
+        "bd568cdd-2c13-4af5-91df-4f4bf51c26be": true,
+        "ce95d5ed-3da1-4110-9bf8-9fb46a7f6eff": true
+      },
+      "id": "root",
+      "style": {},
+      "type": "root"
+    }
+  }
+}

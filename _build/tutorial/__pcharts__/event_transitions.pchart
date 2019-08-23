@@ -1,5 +1,18 @@
 {
   "connections": {
+    "70bc84fe-4599-4c2c-98d7-7df17ae00381": {
+      "id": "70bc84fe-4599-4c2c-98d7-7df17ae00381",
+      "source": "99cf8685-465a-4474-8d62-896ba3cee08a",
+      "style": {
+        "labelPos": {
+          "x": 80,
+          "y": 60
+        },
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "2f8ebdb6-169c-4fe2-9a44-875b55701b42"
+    },
     "96b5a726-35fc-4527-b34a-f3ff3bf0891f": {
       "id": "96b5a726-35fc-4527-b34a-f3ff3bf0891f",
       "label": "E",
@@ -55,10 +68,23 @@
       },
       "type": "xor"
     },
+    "99cf8685-465a-4474-8d62-896ba3cee08a": {
+      "id": "99cf8685-465a-4474-8d62-896ba3cee08a",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": 80,
+          "y": 40
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
     "root": {
       "children": {
         "2f8ebdb6-169c-4fe2-9a44-875b55701b42": true,
-        "85ce16dc-e0dc-43f2-aa94-370afb90438b": true
+        "85ce16dc-e0dc-43f2-aa94-370afb90438b": true,
+        "99cf8685-465a-4474-8d62-896ba3cee08a": true
       },
       "id": "root",
       "style": {},

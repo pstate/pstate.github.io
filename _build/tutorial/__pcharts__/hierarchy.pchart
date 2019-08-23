@@ -4,23 +4,23 @@
     "001bf285-4613-401b-9ca1-8d6b6d243d9f": {
       "id": "001bf285-4613-401b-9ca1-8d6b6d243d9f",
       "label": "D",
-      "parent": "7b7a82a1-85fc-414b-b45e-0bb631474763",
+      "parent": "a61c5f18-d7d9-4a1c-a69a-f53ebbaebf36",
       "style": {
         "dimensions": {
-          "h": 55,
+          "h": 60,
           "w": 120
         },
         "placeholderVisible": false,
         "position": {
           "x": 20,
-          "y": 135
+          "y": 130
         }
       },
       "type": "xor"
     },
     "1b7d4020-e604-4063-a92f-cdc7587d79b5": {
       "children": {
-        "7b7a82a1-85fc-414b-b45e-0bb631474763": true
+        "a61c5f18-d7d9-4a1c-a69a-f53ebbaebf36": true
       },
       "id": "1b7d4020-e604-4063-a92f-cdc7587d79b5",
       "label": "A",
@@ -38,12 +38,29 @@
       },
       "type": "xor"
     },
-    "7b7a82a1-85fc-414b-b45e-0bb631474763": {
+    "923bb3f5-75cb-4b56-a51e-90426fe4a896": {
+      "id": "923bb3f5-75cb-4b56-a51e-90426fe4a896",
+      "label": "C",
+      "parent": "a61c5f18-d7d9-4a1c-a69a-f53ebbaebf36",
+      "style": {
+        "dimensions": {
+          "h": 60,
+          "w": 120
+        },
+        "placeholderVisible": false,
+        "position": {
+          "x": 20,
+          "y": 60
+        }
+      },
+      "type": "xor"
+    },
+    "a61c5f18-d7d9-4a1c-a69a-f53ebbaebf36": {
       "children": {
         "001bf285-4613-401b-9ca1-8d6b6d243d9f": true,
         "923bb3f5-75cb-4b56-a51e-90426fe4a896": true
       },
-      "id": "7b7a82a1-85fc-414b-b45e-0bb631474763",
+      "id": "a61c5f18-d7d9-4a1c-a69a-f53ebbaebf36",
       "label": "B",
       "parent": "1b7d4020-e604-4063-a92f-cdc7587d79b5",
       "style": {
@@ -53,25 +70,8 @@
         },
         "placeholderVisible": false,
         "position": {
-          "x": 10,
+          "x": 10.000007629394531,
           "y": 30
-        }
-      },
-      "type": "and"
-    },
-    "923bb3f5-75cb-4b56-a51e-90426fe4a896": {
-      "id": "923bb3f5-75cb-4b56-a51e-90426fe4a896",
-      "label": "C",
-      "parent": "7b7a82a1-85fc-414b-b45e-0bb631474763",
-      "style": {
-        "dimensions": {
-          "h": 55,
-          "w": 120
-        },
-        "placeholderVisible": false,
-        "position": {
-          "x": 20,
-          "y": 55
         }
       },
       "type": "xor"

@@ -13,7 +13,7 @@
           "h": 16.234375,
           "w": 63.265625
         },
-        "placeholderVisible": false
+        "placeholderVisible": true
       },
       "target": "17a6b51d-ccca-4d37-9f2a-37fc52c7131a"
     },
@@ -88,7 +88,7 @@
           "w": 73.09375
         },
         "path": [],
-        "placeholderVisible": true,
+        "placeholderVisible": false,
         "showLabelLink": true
       },
       "target": "ff1f7be3-987d-4d24-a1f7-cd9c5112d8ba"
