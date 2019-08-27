@@ -50,7 +50,7 @@
           "h": 30,
           "w": 40
         },
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "position": {
           "x": 110.00003051757812,
           "y": 20

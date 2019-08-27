@@ -1,6 +1,18 @@
 {
   "connections": {},
   "states": {
+    "019b82d6-296a-4f9a-9c3e-09303281cbaf": {
+      "id": "019b82d6-296a-4f9a-9c3e-09303281cbaf",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": 180,
+          "y": 100
+        },
+        "radius": 10
+      },
+      "type": "prob"
+    },
     "0cd49969-25aa-4a57-a283-3702e949c736": {
       "id": "0cd49969-25aa-4a57-a283-3702e949c736",
       "parent": "root",
@@ -12,6 +24,18 @@
         "radius": 10
       },
       "type": "init"
+    },
+    "0d836ab8-ca75-4860-ab17-8e33361c9665": {
+      "id": "0d836ab8-ca75-4860-ab17-8e33361c9665",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": 60,
+          "y": 100
+        },
+        "radius": 10
+      },
+      "type": "choice"
     },
     "2c187904-7c43-4853-bcf9-df09ba0caf3c": {
       "id": "2c187904-7c43-4853-bcf9-df09ba0caf3c",
@@ -29,30 +53,6 @@
         }
       },
       "type": "and"
-    },
-    "9f2b06cf-2fc5-47b3-b463-0403052b1df4": {
-      "id": "9f2b06cf-2fc5-47b3-b463-0403052b1df4",
-      "parent": "root",
-      "style": {
-        "position": {
-          "x": 180,
-          "y": 100
-        },
-        "radius": 20
-      },
-      "type": "prob"
-    },
-    "9f975095-c73a-4dbc-b0cb-5f3044f5194f": {
-      "id": "9f975095-c73a-4dbc-b0cb-5f3044f5194f",
-      "parent": "root",
-      "style": {
-        "position": {
-          "x": 60,
-          "y": 100
-        },
-        "radius": 20
-      },
-      "type": "choice"
     },
     "fdbd2902-1834-4149-bc6d-fbdc648eb870": {
       "id": "fdbd2902-1834-4149-bc6d-fbdc648eb870",
@@ -73,10 +73,10 @@
     },
     "root": {
       "children": {
+        "019b82d6-296a-4f9a-9c3e-09303281cbaf": true,
         "0cd49969-25aa-4a57-a283-3702e949c736": true,
+        "0d836ab8-ca75-4860-ab17-8e33361c9665": true,
         "2c187904-7c43-4853-bcf9-df09ba0caf3c": true,
-        "9f2b06cf-2fc5-47b3-b463-0403052b1df4": true,
-        "9f975095-c73a-4dbc-b0cb-5f3044f5194f": true,
         "fdbd2902-1834-4149-bc6d-fbdc648eb870": true
       },
       "id": "root",

@@ -20,7 +20,7 @@
             "y": -232.50001525878906
           }
         ],
-        "placeholderVisible": true,
+        "placeholderVisible": false,
         "showLabelLink": true
       },
       "target": "a8d20dfe-cda6-41d9-9327-0bea405271a8"
@@ -40,7 +40,7 @@
         },
         "labelSticky": true,
         "path": [],
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "showLabelLink": true
       },
       "target": "15814d9d-1cdf-4be8-aad7-72d58233b034"
@@ -90,7 +90,7 @@
             "y": -351.49989318847656
           }
         ],
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "showLabelLink": true
       },
       "target": "a8d20dfe-cda6-41d9-9327-0bea405271a8"
@@ -167,7 +167,7 @@
           "w": 184.109375
         },
         "labelSticky": true,
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "showLabelLink": true
       },
       "target": "ef8ebdfb-7ff8-42e6-9ecb-a552c29a06dd"

@@ -1,9 +1,17 @@
 {
   "connections": {
+    "4e655160-3535-4c42-ba04-c731841e258c": {
+      "id": "4e655160-3535-4c42-ba04-c731841e258c",
+      "source": "428d52bb-a5c5-434a-a6bb-87d5eb1b7900",
+      "style": {
+        "placeholderVisible": false
+      },
+      "target": "c48b2d32-205e-414a-81be-595252baac36"
+    },
     "639737ca-1ddc-4f8b-9169-eb58868e6522": {
       "id": "639737ca-1ddc-4f8b-9169-eb58868e6522",
       "label": "@0.4",
-      "source": "3bf74e0b-4701-4bf3-8258-63cbeeab1566",
+      "source": "e1d278ce-2c75-486a-a157-47c34a380d4e",
       "style": {
         "labelPos": {
           "x": 139.171875,
@@ -22,7 +30,7 @@
     "9dc1befd-a807-4a6d-b0cc-9bccf5ff6679": {
       "id": "9dc1befd-a807-4a6d-b0cc-9bccf5ff6679",
       "label": "@0.6",
-      "source": "3bf74e0b-4701-4bf3-8258-63cbeeab1566",
+      "source": "e1d278ce-2c75-486a-a157-47c34a380d4e",
       "style": {
         "labelPos": {
           "x": 139.17186737060547,
@@ -55,21 +63,21 @@
         "placeholderVisible": false,
         "showLabelLink": true
       },
-      "target": "3bf74e0b-4701-4bf3-8258-63cbeeab1566"
+      "target": "e1d278ce-2c75-486a-a157-47c34a380d4e"
     }
   },
   "states": {
-    "3bf74e0b-4701-4bf3-8258-63cbeeab1566": {
-      "id": "3bf74e0b-4701-4bf3-8258-63cbeeab1566",
+    "428d52bb-a5c5-434a-a6bb-87d5eb1b7900": {
+      "id": "428d52bb-a5c5-434a-a6bb-87d5eb1b7900",
       "parent": "root",
       "style": {
         "position": {
-          "x": 120,
+          "x": -30,
           "y": 50
         },
-        "radius": 20
+        "radius": 10
       },
-      "type": "prob"
+      "type": "init"
     },
     "7772d92e-0fb1-4371-8912-06fba0afe623": {
       "id": "7772d92e-0fb1-4371-8912-06fba0afe623",
@@ -105,6 +113,18 @@
       },
       "type": "xor"
     },
+    "e1d278ce-2c75-486a-a157-47c34a380d4e": {
+      "id": "e1d278ce-2c75-486a-a157-47c34a380d4e",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": 120,
+          "y": 50
+        },
+        "radius": 10
+      },
+      "type": "prob"
+    },
     "e96ab1d6-1971-4b97-95e1-ce0279eb27a9": {
       "id": "e96ab1d6-1971-4b97-95e1-ce0279eb27a9",
       "label": "R",
@@ -124,9 +144,10 @@
     },
     "root": {
       "children": {
-        "3bf74e0b-4701-4bf3-8258-63cbeeab1566": true,
+        "428d52bb-a5c5-434a-a6bb-87d5eb1b7900": true,
         "7772d92e-0fb1-4371-8912-06fba0afe623": true,
         "c48b2d32-205e-414a-81be-595252baac36": true,
+        "e1d278ce-2c75-486a-a157-47c34a380d4e": true,
         "e96ab1d6-1971-4b97-95e1-ce0279eb27a9": true
       },
       "id": "root",

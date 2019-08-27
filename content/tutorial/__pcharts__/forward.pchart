@@ -215,7 +215,7 @@
           "h": 30,
           "w": 60
         },
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "position": {
           "x": 169.99998474121094,
           "y": 79.99996948242188

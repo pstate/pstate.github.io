@@ -7,7 +7,7 @@
       "style": {
         "labelPos": {
           "x": 322.0937442779541,
-          "y": 105.17967224121094
+          "y": 125.17967987060547
         },
         "labelSize": {
           "h": 16.359375,
@@ -17,7 +17,7 @@
         "path": [
           {
             "x": 340.0000305175781,
-            "y": 105.00001525878906
+            "y": 125.0000228881836
           }
         ],
         "placeholderVisible": false,
@@ -29,7 +29,12 @@
       "id": "4a27e1b6-ba8e-4a8e-bbbc-b6b01d14870e",
       "source": "6beeed5b-df67-4f0f-a6a8-4fce791455d2",
       "style": {
-        "placeholderVisible": false
+        "labelPos": {
+          "x": 610,
+          "y": 170.5
+        },
+        "placeholderVisible": false,
+        "showLabelLink": true
       },
       "target": "11b10f10-5b26-4926-9145-26acb44d66b9"
     },
@@ -37,7 +42,37 @@
       "id": "56cd53e4-6b20-4d18-944a-739170cac048",
       "source": "c0ef4cfc-0128-4fb5-9e71-19150dc7449c",
       "style": {
-        "placeholderVisible": false
+        "labelPos": {
+          "x": 128,
+          "y": 270.5
+        },
+        "placeholderVisible": false,
+        "showLabelLink": true
+      },
+      "target": "48e872ef-6e7d-45df-b49c-997b0cadf0a5"
+    },
+    "5920e62d-0e6b-40e8-95bc-d57cf6d337f5": {
+      "id": "5920e62d-0e6b-40e8-95bc-d57cf6d337f5",
+      "label": " 600s / turnOff \n",
+      "source": "7800f1f8-f0ef-4ddf-bc23-5e5d99ccee49",
+      "style": {
+        "labelPos": {
+          "x": 236.8046875,
+          "y": 233.15623474121094
+        },
+        "labelSize": {
+          "h": 16.3125,
+          "w": 86.390625
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 280,
+            "y": 255.00001525878906
+          }
+        ],
+        "placeholderVisible": false,
+        "showLabelLink": true
       },
       "target": "48e872ef-6e7d-45df-b49c-997b0cadf0a5"
     },
@@ -47,8 +82,8 @@
       "source": "2b339bb6-e801-4d1a-b45b-dfa51e68ec9c",
       "style": {
         "labelPos": {
-          "x": 376.56249237060547,
-          "y": 193.17962646484375
+          "x": 396.56249237060547,
+          "y": 253.1796417236328
         },
         "labelSize": {
           "h": 16.359375,
@@ -57,8 +92,8 @@
         "labelSticky": true,
         "path": [
           {
-            "x": 485,
-            "y": 240
+            "x": 525,
+            "y": 236
           }
         ],
         "placeholderVisible": false,
@@ -70,7 +105,12 @@
       "id": "74a19e6b-fa4e-4c75-9ba0-5d8fb24c2d59",
       "source": "7454ccfb-883b-4b86-b5c9-a58e51ed951d",
       "style": {
-        "placeholderVisible": false
+        "labelPos": {
+          "x": 190,
+          "y": 117.50000762939453
+        },
+        "placeholderVisible": false,
+        "showLabelLink": true
       },
       "target": "10361427-74d1-44e9-ba59-11b6a934e2e4"
     },
@@ -81,7 +121,7 @@
       "style": {
         "labelPos": {
           "x": 323.1875,
-          "y": 51.67964172363281
+          "y": 71.67964935302734
         },
         "labelSize": {
           "h": 16.359375,
@@ -91,7 +131,7 @@
         "path": [
           {
             "x": 345.0000305175781,
-            "y": 75
+            "y": 95.00000762939453
           }
         ],
         "placeholderVisible": false,
@@ -126,22 +166,22 @@
     },
     "9d7635d3-c541-4b1b-bb50-fac3bc03275d": {
       "id": "9d7635d3-c541-4b1b-bb50-fac3bc03275d",
-      "label": "switchedOff \u22061h / turnOff",
+      "label": "switchedOff / turnOff",
       "source": "7800f1f8-f0ef-4ddf-bc23-5e5d99ccee49",
       "style": {
         "labelPos": {
-          "x": 194.1999885559082,
-          "y": 255.0000457763672
+          "x": 214.1999885559082,
+          "y": 275.0000457763672
         },
         "labelSize": {
-          "h": 16.359375,
-          "w": 159.546875
+          "h": 16.3125,
+          "w": 131
         },
         "labelSticky": true,
         "path": [
           {
             "x": 279.9999084472656,
-            "y": 250
+            "y": 270.00001525878906
           }
         ],
         "placeholderVisible": false
@@ -162,7 +202,7 @@
         "placeholderVisible": false,
         "position": {
           "x": 220.00001525878906,
-          "y": 80
+          "y": 100.00000762939453
         }
       },
       "type": "xor"
@@ -177,13 +217,13 @@
       "parent": "root",
       "style": {
         "dimensions": {
-          "h": 350,
-          "w": 510
+          "h": 310,
+          "w": 500
         },
         "placeholderVisible": false,
         "position": {
-          "x": 80,
-          "y": 0
+          "x": 90,
+          "y": 20
         }
       },
       "type": "and"
@@ -199,12 +239,12 @@
       "parent": "11b10f10-5b26-4926-9145-26acb44d66b9",
       "style": {
         "dimensions": {
-          "h": 170,
-          "w": 490
+          "h": 150,
+          "w": 480
         },
         "placeholderVisible": false,
         "position": {
-          "x": 90,
+          "x": 100,
           "y": 170
         }
       },
@@ -232,7 +272,7 @@
       "parent": "root",
       "style": {
         "position": {
-          "x": 640,
+          "x": 650,
           "y": 170
         },
         "radius": 10
@@ -244,8 +284,8 @@
       "parent": "880239d1-956f-4f85-b53f-1248b4aa7478",
       "style": {
         "position": {
-          "x": 150,
-          "y": 100
+          "x": 160,
+          "y": 120.00000762939453
         },
         "radius": 10
       },
@@ -279,13 +319,13 @@
       "parent": "11b10f10-5b26-4926-9145-26acb44d66b9",
       "style": {
         "dimensions": {
-          "h": 130,
-          "w": 490
+          "h": 110,
+          "w": 480
         },
         "placeholderVisible": false,
         "position": {
-          "x": 90,
-          "y": 30
+          "x": 100,
+          "y": 50.00000762939453
         }
       },
       "type": "xor"
@@ -295,8 +335,8 @@
       "parent": "2b339bb6-e801-4d1a-b45b-dfa51e68ec9c",
       "style": {
         "position": {
-          "x": 110,
-          "y": 300
+          "x": 150.00000762939453,
+          "y": 290
         },
         "radius": 10
       },
@@ -314,7 +354,7 @@
         "placeholderVisible": false,
         "position": {
           "x": 430,
-          "y": 80.00000762939453
+          "y": 100.00001525878906
         }
       },
       "type": "xor"

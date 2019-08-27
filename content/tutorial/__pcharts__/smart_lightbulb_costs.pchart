@@ -1,5 +1,30 @@
 {
   "connections": {
+    "284efcde-6123-4159-9410-1519778485a1": {
+      "id": "284efcde-6123-4159-9410-1519778485a1",
+      "label": "600s / turnOff",
+      "source": "7800f1f8-f0ef-4ddf-bc23-5e5d99ccee49",
+      "style": {
+        "labelPos": {
+          "x": 266.80470275878906,
+          "y": 253.15625
+        },
+        "labelSize": {
+          "h": 16.3125,
+          "w": 86.390625
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 310,
+            "y": 245
+          }
+        ],
+        "placeholderVisible": true,
+        "showLabelLink": true
+      },
+      "target": "48e872ef-6e7d-45df-b49c-997b0cadf0a5"
+    },
     "3830f3d4-771b-4a8e-a668-1a5301d2f719": {
       "id": "3830f3d4-771b-4a8e-a668-1a5301d2f719",
       "label": "turnOn",
@@ -29,7 +54,12 @@
       "id": "4a27e1b6-ba8e-4a8e-bbbc-b6b01d14870e",
       "source": "6beeed5b-df67-4f0f-a6a8-4fce791455d2",
       "style": {
-        "placeholderVisible": false
+        "labelPos": {
+          "x": 665,
+          "y": 170.5
+        },
+        "placeholderVisible": false,
+        "showLabelLink": true
       },
       "target": "11b10f10-5b26-4926-9145-26acb44d66b9"
     },
@@ -37,28 +67,33 @@
       "id": "56cd53e4-6b20-4d18-944a-739170cac048",
       "source": "c0ef4cfc-0128-4fb5-9e71-19150dc7449c",
       "style": {
-        "placeholderVisible": false
+        "labelPos": {
+          "x": 158.5,
+          "y": 271.5
+        },
+        "placeholderVisible": false,
+        "showLabelLink": true
       },
       "target": "48e872ef-6e7d-45df-b49c-997b0cadf0a5"
     },
     "6f7cba3e-2e03-450d-b643-cea1525a3466": {
       "id": "6f7cba3e-2e03-450d-b643-cea1525a3466",
-      "label": "detectedMovement $switchP:=10J / turnOn",
+      "label": "detectedMovement / turnOn $switchP=10W",
       "source": "2b339bb6-e801-4d1a-b45b-dfa51e68ec9c",
       "style": {
         "labelPos": {
-          "x": 336.56246750056744,
-          "y": 183.17963409423828
+          "x": 356.5624710768461,
+          "y": 193.17963409423828
         },
         "labelSize": {
-          "h": 16.0625,
-          "w": 273.9375
+          "h": 16.3125,
+          "w": 275.671875
         },
         "labelSticky": true,
         "path": [
           {
-            "x": 465.0000915527344,
-            "y": 235.00003051757812
+            "x": 575,
+            "y": 235
           }
         ],
         "placeholderVisible": false,
@@ -70,7 +105,12 @@
       "id": "74a19e6b-fa4e-4c75-9ba0-5d8fb24c2d59",
       "source": "7454ccfb-883b-4b86-b5c9-a58e51ed951d",
       "style": {
-        "placeholderVisible": false
+        "labelPos": {
+          "x": 188,
+          "y": 120
+        },
+        "placeholderVisible": false,
+        "showLabelLink": true
       },
       "target": "10361427-74d1-44e9-ba59-11b6a934e2e4"
     },
@@ -105,8 +145,8 @@
       "source": "48e872ef-6e7d-45df-b49c-997b0cadf0a5",
       "style": {
         "labelPos": {
-          "x": 197.88280487060547,
-          "y": 203.1796875
+          "x": 217.88280487060547,
+          "y": 193.1796875
         },
         "labelSize": {
           "h": 16.359375,
@@ -115,33 +155,37 @@
         "labelSticky": true,
         "path": [
           {
-            "x": 265,
-            "y": 225
+            "x": 315,
+            "y": 215
           }
         ],
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "showLabelLink": true
       },
       "target": "7800f1f8-f0ef-4ddf-bc23-5e5d99ccee49"
     },
     "9d7635d3-c541-4b1b-bb50-fac3bc03275d": {
       "id": "9d7635d3-c541-4b1b-bb50-fac3bc03275d",
-      "label": "switchedOff \u22061h / turnOff",
+      "label": "switchedOff / turnOff",
       "source": "7800f1f8-f0ef-4ddf-bc23-5e5d99ccee49",
       "style": {
         "labelPos": {
-          "x": 184.19998474121093,
-          "y": 255.0000457763672
+          "x": 224.19999237060546,
+          "y": 285.0000457763672
         },
         "labelSize": {
-          "h": 16.359375,
-          "w": 159.546875
+          "h": 16.3125,
+          "w": 131
         },
         "labelSticky": true,
         "path": [
           {
-            "x": 265.0000457763672,
-            "y": 249.99998474121094
+            "x": 387.5000228881836,
+            "y": 277.49999237060547
+          },
+          {
+            "x": 235.0000457763672,
+            "y": 279.99998474121094
           }
         ],
         "placeholderVisible": false
@@ -153,7 +197,7 @@
     "10361427-74d1-44e9-ba59-11b6a934e2e4": {
       "children": {},
       "id": "10361427-74d1-44e9-ba59-11b6a934e2e4",
-      "label": "Off $lightP:=10mW",
+      "label": "Off $lightP=10mW",
       "parent": "880239d1-956f-4f85-b53f-1248b4aa7478",
       "style": {
         "dimensions": {
@@ -196,7 +240,7 @@
         "c0ef4cfc-0128-4fb5-9e71-19150dc7449c": true
       },
       "id": "2b339bb6-e801-4d1a-b45b-dfa51e68ec9c",
-      "label": "Switch $switchP:=1W",
+      "label": "Switch",
       "parent": "11b10f10-5b26-4926-9145-26acb44d66b9",
       "style": {
         "dimensions": {
@@ -213,12 +257,12 @@
     },
     "48e872ef-6e7d-45df-b49c-997b0cadf0a5": {
       "id": "48e872ef-6e7d-45df-b49c-997b0cadf0a5",
-      "label": "SwitchOff",
+      "label": "SwitchOff $switchP=1W",
       "parent": "2b339bb6-e801-4d1a-b45b-dfa51e68ec9c",
       "style": {
         "dimensions": {
           "h": 30,
-          "w": 80
+          "w": 170
         },
         "placeholderVisible": false,
         "position": {
@@ -254,17 +298,17 @@
     },
     "7800f1f8-f0ef-4ddf-bc23-5e5d99ccee49": {
       "id": "7800f1f8-f0ef-4ddf-bc23-5e5d99ccee49",
-      "label": "SwitchOn",
+      "label": "SwitchOn $switchP=1W",
       "parent": "2b339bb6-e801-4d1a-b45b-dfa51e68ec9c",
       "style": {
         "dimensions": {
           "h": 30,
-          "w": 80
+          "w": 170
         },
         "placeholderVisible": false,
         "position": {
-          "x": 340.00006103515625,
-          "y": 219.99989318847656
+          "x": 340,
+          "y": 220
         }
       },
       "type": "xor"
@@ -305,7 +349,7 @@
     },
     "cf084ad1-a71a-42c2-86dd-f72e532b3321": {
       "id": "cf084ad1-a71a-42c2-86dd-f72e532b3321",
-      "label": "On $lightP:=10W",
+      "label": "On $lightP=10W",
       "parent": "880239d1-956f-4f85-b53f-1248b4aa7478",
       "style": {
         "dimensions": {

@@ -1,5 +1,29 @@
 {
   "connections": {
+    "34ae08e0-a6b8-495b-8ef5-d27274d193d3": {
+      "id": "34ae08e0-a6b8-495b-8ef5-d27274d193d3",
+      "label": "600s\n",
+      "source": "cdf2838c-7211-45da-9ece-ba8050b2b6cc",
+      "style": {
+        "labelPos": {
+          "x": 184.0740301395583,
+          "y": 87.99998474121094
+        },
+        "labelSize": {
+          "h": 16.40625,
+          "w": 30.359375
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 200,
+            "y": 85.00004959106445
+          }
+        ],
+        "placeholderVisible": false
+      },
+      "target": "ebf640cb-6efa-41bf-a170-df3262a0255f"
+    },
     "52d6e09d-90f6-49e0-8615-214122c8ee5c": {
       "id": "52d6e09d-90f6-49e0-8615-214122c8ee5c",
       "label": "detectedMovement",
@@ -60,16 +84,16 @@
     },
     "b63e2e0a-defc-4506-bade-f6193bcaaed3": {
       "id": "b63e2e0a-defc-4506-bade-f6193bcaaed3",
-      "label": "switch \u22061h",
+      "label": "switch",
       "source": "cdf2838c-7211-45da-9ece-ba8050b2b6cc",
       "style": {
         "labelPos": {
-          "x": 157.27343368530273,
+          "x": 177.2734489440918,
           "y": 59.36720275878906
         },
         "labelSize": {
-          "h": 16.546875,
-          "w": 68.96875
+          "h": 16.40625,
+          "w": 40.4375
         },
         "labelSticky": true,
         "path": [
@@ -88,7 +112,7 @@
       "source": "c0949b47-8815-4b44-af8e-d8aeb045c84b",
       "style": {
         "labelPos": {
-          "x": 55,
+          "x": 45,
           "y": 42
         },
         "placeholderVisible": false,
@@ -116,7 +140,7 @@
             "y": 7.808208465576172e-06
           }
         ],
-        "placeholderVisible": false
+        "placeholderVisible": true
       },
       "target": "cdf2838c-7211-45da-9ece-ba8050b2b6cc"
     }
@@ -160,7 +184,7 @@
           "h": 30,
           "w": 70
         },
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "position": {
           "x": 60,
           "y": 30

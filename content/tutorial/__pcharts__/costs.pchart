@@ -2,7 +2,7 @@
   "connections": {
     "0dbbdb53-8b3e-4f43-a649-1e4b98618bce": {
       "id": "0dbbdb53-8b3e-4f43-a649-1e4b98618bce",
-      "label": "E $y:=20J",
+      "label": "E $y=20J",
       "source": "5ee7ba17-7d60-403c-be8c-cfe624789097",
       "style": {
         "labelPos": {
@@ -10,20 +10,28 @@
           "y": 53.156272888183594
         },
         "labelSize": {
-          "h": 16.3125,
-          "w": 62.359375
+          "h": 16.59375,
+          "w": 58.46875
         },
         "labelSticky": true,
         "placeholderVisible": false,
         "showLabelLink": true
       },
       "target": "119af822-f65b-4d69-a2d6-7518638e0d72"
+    },
+    "1cf8f789-cf28-457d-b3e6-1754f2a3733b": {
+      "id": "1cf8f789-cf28-457d-b3e6-1754f2a3733b",
+      "source": "3904bf15-dad1-41e3-9c9f-1b278cd53f11",
+      "style": {
+        "placeholderVisible": false
+      },
+      "target": "5ee7ba17-7d60-403c-be8c-cfe624789097"
     }
   },
   "states": {
     "119af822-f65b-4d69-a2d6-7518638e0d72": {
       "id": "119af822-f65b-4d69-a2d6-7518638e0d72",
-      "label": "T $x:=5J/s",
+      "label": "T $x=5J/s",
       "parent": "root",
       "style": {
         "dimensions": {
@@ -38,9 +46,21 @@
       },
       "type": "xor"
     },
+    "3904bf15-dad1-41e3-9c9f-1b278cd53f11": {
+      "id": "3904bf15-dad1-41e3-9c9f-1b278cd53f11",
+      "parent": "root",
+      "style": {
+        "position": {
+          "x": 10.000004172325134,
+          "y": 30
+        },
+        "radius": 10
+      },
+      "type": "init"
+    },
     "5ee7ba17-7d60-403c-be8c-cfe624789097": {
       "id": "5ee7ba17-7d60-403c-be8c-cfe624789097",
-      "label": "S $x:=10J/s",
+      "label": "S $x=10J/s",
       "parent": "root",
       "style": {
         "dimensions": {
@@ -58,6 +78,7 @@
     "root": {
       "children": {
         "119af822-f65b-4d69-a2d6-7518638e0d72": true,
+        "3904bf15-dad1-41e3-9c9f-1b278cd53f11": true,
         "5ee7ba17-7d60-403c-be8c-cfe624789097": true
       },
       "id": "root",

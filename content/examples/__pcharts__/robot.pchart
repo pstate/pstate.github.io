@@ -12,7 +12,7 @@
   "states": {
     "47acb974-dcd5-41c6-a833-af69f65d0287": {
       "id": "47acb974-dcd5-41c6-a833-af69f65d0287",
-      "label": "RobotBase",
+      "label": "<RobotBase>",
       "parent": "d7e63601-3719-4ad5-9c13-7e5d232eaba8",
       "style": {
         "dimensions": {

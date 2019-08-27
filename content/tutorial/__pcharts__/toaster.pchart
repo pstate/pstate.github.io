@@ -4,7 +4,12 @@
       "id": "30698b75-8d84-4c48-9ca9-c3965d96b07e",
       "source": "da27fa45-141b-4c8c-a4d6-2a715a313a43",
       "style": {
-        "placeholderVisible": false
+        "labelPos": {
+          "x": 25,
+          "y": 62
+        },
+        "placeholderVisible": false,
+        "showLabelLink": true
       },
       "target": "a07604cf-6709-4d30-ad7a-bd506fdabaa8"
     },
@@ -15,7 +20,7 @@
       "style": {
         "labelPos": {
           "x": 164.10933685302734,
-          "y": 121.99999237060547
+          "y": 111.99999237060547
         },
         "labelSize": {
           "h": 16.234375,
@@ -32,6 +37,34 @@
       },
       "target": "a07604cf-6709-4d30-ad7a-bd506fdabaa8"
     },
+    "a0afb069-77a8-4d6c-9a31-99b394c6a9e3": {
+      "id": "a0afb069-77a8-4d6c-9a31-99b394c6a9e3",
+      "label": "60s..80s\n",
+      "source": "626c8424-39fd-42f6-b2c5-1bef18dc99fa",
+      "style": {
+        "labelPos": {
+          "x": 216.42219050276543,
+          "y": -3.0000228881835938
+        },
+        "labelSize": {
+          "h": 16.59375,
+          "w": 52.921875
+        },
+        "labelSticky": true,
+        "path": [
+          {
+            "x": 199.99996948242188,
+            "y": 24.999942779541016
+          },
+          {
+            "x": 280.0000305175781,
+            "y": 27.499977111816406
+          }
+        ],
+        "placeholderVisible": false
+      },
+      "target": "931bfda3-e7f7-4f30-96d3-d5c3f679ef03"
+    },
     "a789d1a0-95ad-47de-a85d-10acc627218c": {
       "id": "a789d1a0-95ad-47de-a85d-10acc627218c",
       "label": "start",
@@ -39,7 +72,7 @@
       "style": {
         "labelPos": {
           "x": 111.00782012939453,
-          "y": 23.1171875
+          "y": 43.11719512939453
         },
         "labelSize": {
           "h": 16.234375,
@@ -53,19 +86,20 @@
     },
     "b3a77a36-f3f5-4509-89c0-03b49efb276e": {
       "id": "b3a77a36-f3f5-4509-89c0-03b49efb276e",
-      "label": "abort \u220620..100s",
+      "label": "abort",
       "source": "626c8424-39fd-42f6-b2c5-1bef18dc99fa",
       "style": {
         "labelPos": {
-          "x": 192.31249237060547,
-          "y": 23.1171875
+          "x": 222.31251525878906,
+          "y": 43.117210388183594
         },
         "labelSize": {
-          "h": 16.234375,
-          "w": 99.59375
+          "h": 16.59375,
+          "w": 32.9375
         },
         "labelSticky": true,
-        "placeholderVisible": false,
+        "path": [],
+        "placeholderVisible": true,
         "showLabelLink": true
       },
       "target": "931bfda3-e7f7-4f30-96d3-d5c3f679ef03"

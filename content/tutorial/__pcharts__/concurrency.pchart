@@ -37,7 +37,7 @@
       "style": {
         "labelPos": {
           "x": 275.5,
-          "y": 111
+          "y": 102
         },
         "placeholderVisible": false,
         "showLabelLink": true
@@ -102,7 +102,7 @@
           "h": 205,
           "w": 150
         },
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "position": {
           "x": 110,
           "y": 50
@@ -199,7 +199,7 @@
           "h": 30,
           "w": 40
         },
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "position": {
           "x": 200,
           "y": 200.00001525878906

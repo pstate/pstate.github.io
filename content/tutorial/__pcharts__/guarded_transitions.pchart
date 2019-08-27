@@ -14,7 +14,7 @@
           "w": 23.84375
         },
         "labelSticky": true,
-        "placeholderVisible": true,
+        "placeholderVisible": false,
         "showLabelLink": true
       },
       "target": "2d74ce96-bd6c-4f37-9ef9-4c2090d41a09"

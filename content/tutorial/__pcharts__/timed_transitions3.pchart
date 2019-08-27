@@ -61,7 +61,7 @@
             "y": 145
           }
         ],
-        "placeholderVisible": false,
+        "placeholderVisible": true,
         "showLabelLink": true
       },
       "target": "c279a071-69a2-4241-8fce-a568b1a56c34"
